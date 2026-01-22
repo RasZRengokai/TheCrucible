@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:ornament_toys_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   ","HS ","   "],"key":{"S":{"item":"lfg_ff:plush"},"H":{"tag":"minecraft:wooden_slabs"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:ornament_toys","count":8}]}}

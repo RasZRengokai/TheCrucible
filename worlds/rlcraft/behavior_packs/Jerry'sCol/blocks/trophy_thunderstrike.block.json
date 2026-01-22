@@ -1,0 +1,34 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "jerrys_colonies:trophy_thunderstrike",
+			"menu_category": {
+				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 200
+			},
+			"minecraft:geometry": "geometry.trophy_thunderstrike",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "trophy_thunderstrike",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#fcff00"
+		}
+	}
+}

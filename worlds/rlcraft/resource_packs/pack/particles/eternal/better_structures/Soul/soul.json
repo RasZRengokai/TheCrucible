@@ -1,0 +1,265 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "ecbl_bs:soul",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/eternal/better_structures/particle/souls"
+			}
+		},
+		"curves": {
+			"variable.c": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [0.31, 0.36, 0.36]
+			},
+			"variable.z": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [1, 1.25, 1]
+			},
+			"variable.n": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [0, 0, 0.47]
+			}
+		},
+		"events": {
+			"event": {
+				"particle_effect": {
+					"effect": "ecbl_bs:soul_trail",
+					"type": "emitter_bound"
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 2,
+				"max_particles": 600
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 10
+			},
+			"minecraft:emitter_shape_box": {
+				"offset": [0, 0, 0],
+				"half_dimensions": [5, 20, 5],
+				"direction": ["math.random(1, -1)", "math.random(0.5, -0.5)", "math.random(1, -1)"]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 20
+			},
+			"minecraft:particle_lifetime_events": {
+				"timeline": {
+					"0.50": "event",
+					"0.60": "event",
+					"0.75": "event",
+					"0.90": "event",
+					"1.00": "event",
+					"1.10": "event",
+					"1.25": "event",
+					"1.30": "event",
+					"1.40": "event",
+					"1.50": "event",
+					"1.60": "event",
+					"1.75": "event",
+					"1.90": "event",
+					"2.00": "event",
+					"2.10": "event",
+					"2.25": "event",
+					"2.30": "event",
+					"2.40": "event",
+					"2.50": "event",
+					"2.60": "event",
+					"2.75": "event",
+					"2.90": "event",
+					"3.00": "event",
+					"3.10": "event",
+					"3.25": "event",
+					"3.30": "event",
+					"3.40": "event",
+					"3.50": "event",
+					"3.60": "event",
+					"3.75": "event",
+					"3.90": "event",
+					"4.00": "event",
+					"4.10": "event",
+					"4.25": "event",
+					"4.30": "event",
+					"4.40": "event",
+					"4.50": "event",
+					"4.60": "event",
+					"4.75": "event",
+					"4.90": "event",
+					"5.00": "event",
+					"5.10": "event",
+					"5.25": "event",
+					"5.30": "event",
+					"5.40": "event",
+					"5.50": "event",
+					"5.60": "event",
+					"5.75": "event",
+					"5.90": "event",
+					"6.00": "event",
+					"6.10": "event",
+					"6.25": "event",
+					"6.30": "event",
+					"6.40": "event",
+					"6.50": "event",
+					"6.60": "event",
+					"6.75": "event",
+					"6.90": "event",
+					"7.00": "event",
+					"7.10": "event",
+					"7.25": "event",
+					"7.30": "event",
+					"7.40": "event",
+					"7.50": "event",
+					"7.60": "event",
+					"7.75": "event",
+					"7.90": "event",
+					"8.00": "event",
+					"8.10": "event",
+					"8.25": "event",
+					"8.30": "event",
+					"8.40": "event",
+					"8.50": "event",
+					"8.60": "event",
+					"8.75": "event",
+					"8.90": "event",
+					"9.00": "event",
+					"9.10": "event",
+					"9.25": "event",
+					"9.30": "event",
+					"9.40": "event",
+					"9.50": "event",
+					"9.60": "event",
+					"9.75": "event",
+					"9.90": "event",
+					"10.00": "event",
+					"10.10": "event",
+					"10.25": "event",
+					"10.30": "event",
+					"10.40": "event",
+					"10.50": "event",
+					"10.60": "event",
+					"10.75": "event",
+					"10.90": "event",
+					"11.00": "event",
+					"11.10": "event",
+					"11.25": "event",
+					"11.30": "event",
+					"11.40": "event",
+					"11.50": "event",
+					"11.60": "event",
+					"11.75": "event",
+					"11.90": "event",
+					"12.00": "event",
+					"12.10": "event",
+					"12.25": "event",
+					"12.30": "event",
+					"12.40": "event",
+					"12.50": "event",
+					"12.60": "event",
+					"12.75": "event",
+					"12.90": "event",
+					"13.00": "event",
+					"13.10": "event",
+					"13.25": "event",
+					"13.30": "event",
+					"13.40": "event",
+					"13.50": "event",
+					"13.60": "event",
+					"13.75": "event",
+					"13.90": "event",
+					"14.00": "event",
+					"14.10": "event",
+					"14.25": "event",
+					"14.30": "event",
+					"14.40": "event",
+					"14.50": "event",
+					"14.60": "event",
+					"14.75": "event",
+					"14.90": "event",
+					"15.00": "event",
+					"15.10": "event",
+					"15.25": "event",
+					"15.30": "event",
+					"15.40": "event",
+					"15.50": "event",
+					"15.60": "event",
+					"15.75": "event",
+					"15.90": "event",
+					"16.00": "event",
+					"16.10": "event",
+					"16.25": "event",
+					"16.30": "event",
+					"16.40": "event",
+					"16.50": "event",
+					"16.60": "event",
+					"16.75": "event",
+					"16.90": "event",
+					"17.00": "event",
+					"17.10": "event",
+					"17.25": "event",
+					"17.30": "event",
+					"17.40": "event",
+					"17.50": "event",
+					"17.60": "event",
+					"17.75": "event",
+					"17.90": "event",
+					"18.00": "event",
+					"18.10": "event",
+					"18.25": "event",
+					"18.30": "event",
+					"18.40": "event",
+					"18.50": "event",
+					"18.60": "event",
+					"18.75": "event"
+				}
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": -90
+			},
+			"minecraft:particle_initial_speed": 2,
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": ["variable.particle_random_2*0.5*(variable.particle_random_2 < 0.5 ? math.cos(variable.particle_age*180)*5 : math.sin(variable.particle_age*180)*-5)", "math.random(2, -1)", "variable.particle_random_3*0.5*(variable.particle_random_2 < 0.5 ? math.sin(variable.particle_age*180)*5 : math.cos(variable.particle_age*180)*-5)"],
+				"linear_drag_coefficient": "variable.n*5"
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["3*variable.c", "3*variable.c*variable.z"],
+				"facing_camera_mode": "lookat_direction",
+				"direction": {
+					"mode": "derive_from_velocity",
+					"min_speed_threshold": 0.5
+				},
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 64,
+					"flipbook": {
+						"base_UV": [0, 0],
+						"size_UV": [16, 16],
+						"step_UV": [0, 16],
+						"frames_per_second": 8,
+						"max_frame": 4,
+						"loop": true
+					}
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#00FFFFFF",
+						"0.18": "#B3FFFFFF",
+						"0.59": "#A6FFFFFF",
+						"0.92": "#00FFFFFF"
+					}
+				}
+			}
+		}
+	}
+}

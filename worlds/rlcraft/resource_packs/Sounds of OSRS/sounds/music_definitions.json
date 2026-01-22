@@ -1,0 +1,293 @@
+/*
+ALL OVERWORLD ABOVE GROUND BIOMES UNLESS ADDITIONAL SPECIFICATIONS:
+Venture - https://www.youtube.com/watch?v=bjxK0GQeA-c&list=PLADC838822026616E&index=11&ab_channel=OldScapeMusic
+Newbie Melody - https://www.youtube.com/watch?v=VNW9TAwImBY&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=40&ab_channel=OldScapeMusic
+Yesteryear - https://www.youtube.com/watch?v=FMNAcMNedOc&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=2&ab_channel=OldScapeMusic
+Greatness - https://www.youtube.com/watch?v=YdA-OcRX1Xw&list=PLADC838822026616E&index=10&ab_channel=OldScapeMusic
+Parade - https://www.youtube.com/watch?v=4GdGJz3Wk24&list=PLADC838822026616E&index=13&ab_channel=OldScapeMusic 
+Start - https://www.youtube.com/watch?v=120HJCYgDnfGY&list=PLADC838822026616E&index=22&ab_channel=OldScapeMusic
+Lightwalk - https://www.youtube.com/watch?v=8FKL8L0GYIY&list=PLADC838822026616E&index=43&ab_channel=OldScapeMusic
+Lullaby - https://www.youtube.com/watch?v=xB3Ut3IGqcM&list=PLADC838822026616E&index=46&ab_channel=OldScapeMusic
+Doorways - https://www.youtube.com/watch?v=rTvZ8e78jSE&ab_channel=OldScapeMusic
+
+ALL OVERWORLD BELOW GROUND:
+Underground - https://www.youtube.com/watch?v=xhNjuv7aGEo&ab_channel=OldScapeMusic
+Time to Mine - https://www.youtube.com/watch?v=g7d2oVYezBc&&ab_channel=OldScapeMusic
+Cave Background - https://www.youtube.com/watch?v=zXyTSPgHPcQ&&ab_channel=OldScapeMusic
+Underground Pass - https://www.youtube.com/watch?v=np3gGJoIkrU&ab_channel=OldScapeMusic
+
+MOUNTAINS ADDITIONAL: 
+Wander - https://www.youtube.com/watch?v=arEOmQ_JpAw&&ab_channel=OldScapeMusic
+
+BIRCH FOREST ADDITIONAL:
+Elven Mist - https://www.youtube.com/watch?v=iZKh9AAfcdM&ab_channel=OldScapeMusic
+
+FLOWER FOREST ADDITIONAL: 
+Garden - https://www.youtube.com/watch?v=WtBigNNwcmo&ab_channel=OldScapeMusic
+
+ICE BIOME ADDITIONAL: 
+Ice Melody - https://www.youtube.com/watch?v=OP0QPnPRDQs&ab_channel=OldScapeMusic
+
+JUNGLE ADDITIONAL:
+https://www.youtube.com/watch?v=2EoiLZ_Xbb0&list=PLADC838822026616E&index=26&ab_channel=OldScapeMusicJungly2 - 
+Jungle troubles (ADDED AS DISC)- https://www.youtube.com/watch?v=jFLbiJI63ko&list=PLADC838822026616E&index=27&ab_channel=OldScapeMusic
+
+
+ALL NETHER BIOMES UNLESS ADDITIONAL:
+Magic Dance - https://www.youtube.com/watch?v=3cBk9jx6e1Y&list=PLADC838822026616E&index=1203&ab_channel=OldScapeMusic
+Army of Darkness - https://www.youtube.com/watch?v=mA3G6tSO-ik&list=PLADC838822026616E&index=64&ab_channel=OldScapeMusic
+Legion - https://www.youtube.com/watch?v=gGOkKvm9OPs&list=PLADC838822026616E&index=6120&ab_channel=OldScapeMusic
+Nether Realm (ADDED AS DISC)
+In the pits - https://www.youtube.com/watch?v=FMvjVhiDWA0&ab_channel=OldScapeMusic
+
+SWAMP ADDITIONAL:
+Mudskipper Melody - https://www.youtube.com/watch?v=K8gYcdFts00&ab_channel=OldScapeMusic
+
+WATER:
+Sea Shanty - https://www.youtube.com/watch?v=ykZey21sYds&ab_channel=OldScapeMusic
+High Seas - https://www.youtube.com/watch?v=PW-8JJEh04s&ab_channel=OldScapeMusic
+Voyage - https://www.youtube.com/watch?v=X1pLtD9h8Gw&ab_channel=OldScapeMusic
+Sea Shanty 2 (ADDED AS DISC)
+
+ENDER DRAGON:
+Courage - https://www.youtube.com/watch?v=SXUu7vnjSe8&list=PLADC838822026616E&index=41&ab_channel=OldScapeMusic
+
+DEEP DARK:
+Zombiism - https://www.youtube.com/watch?v=1Nw7iaFSP7s&list=PLSH-ChKpDJnLBMbi4NMkbSbwUvU2jeUAU&index=13&ab_channel=OldScapeMusic
+Cavern - https://www.youtube.com/watch?v=ibR_tLHNqa8&list=PLSH-ChKpDJnLBMbi4NMkbSbwUvU2jeUAU&index=14&ab_channel=OldScapeMusic
+Dead Quiet - https://www.youtube.com/watch?v=pn3Gl8FXmnM&list=PLSH-ChKpDJnLBMbi4NMkbSbwUvU2jeUAU&index=2120&ab_channel=OldScapeMusic
+
+END BIOME:
+End Song - https://www.youtube.com/watch?v=kNO8saC3yCg&t=2s&ab_channel=RuneScapeMIDIMusic
+Lonesome - https://www.youtube.com/watch?v=ohL0_zoTDU0&list=PLSH-ChKpDJnLBMbi4NMkbSbwUvU2jeUAU&index=2&ab_channel=OldScapeMusic
+Inspiration - https://www.youtube.com/watch?v=nAZNr1_ov2s&list=PLSH-ChKpDJnLBMbi4NMkbSbwUvU2jeUAU&index=6&ab_channel=OldScapeMusic
+*/
+
+
+{
+   "bamboo_jungle": {
+      "event_name": "music.game.jungle",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "bamboo_jungle_hills": {
+      "event_name": "music.game.jungle",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "basalt_deltas": {
+      "event_name": "music.game.basalt",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "birch_forest": {
+      "event_name": "music.game.birch",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "birch_forest_hills": {
+      "event_name": "music.game.birch",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "birch_forest_mutated": {
+      "event_name": "music.game.birch",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "creative": {
+      "event_name": "music.game.overworld_general",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "credits": {
+      "event_name": "music.game.credits",
+      "max_delay": 0,
+      "min_delay": 60
+   },
+   "crimson_forest": {
+      "event_name": "music.game.nether_forests",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "deep_dark": {
+      "event_name": "music.game.deep_dark",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "dripstone_caves": {
+      "event_name": "music.game.caves",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "end": {
+      "event_name": "music.game.end",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "endboss": {
+      "event_name": "music.game.ender_dragon",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "flower_forest": {
+      "event_name": "music.game.flower",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "forest": {
+      "event_name": "music.game.overworld_general",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "frozen_peaks": {
+      "event_name": "music.game.frozen",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "game": {
+      "event_name": "music.game.overworld_general",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "grove": {
+      "event_name": "music.game.frozen",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "hell": {
+      "event_name": "music.game.nether_general",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "jagged_peaks": {
+      "event_name": "music.game.mountains",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "jungle": {
+      "event_name": "music.game.jungle",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "jungle_hills": {
+      "event_name": "music.game.jungle",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "jungle_mutated": {
+      "event_name": "music.game.jungle",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "lush_caves": {
+      "event_name": "music.game.caves",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "mangrove_swamp": {
+      "event_name": "music.game.swamp_music",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "meadow": {
+      "event_name": "music.game.flower",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "mega_taiga": {
+      "event_name": "music.game.overworld_general",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "menu": {
+      "event_name": "music.menu",
+      "max_delay": 30,
+      "min_delay": 20
+   },
+   "mesa_plateau": {
+      "event_name": "music.game.mountains",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "mesa_plateau_mutated": {
+      "event_name": "music.game.mountains",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "nether": {
+      "event_name": "music.game.nether_general",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "redwood_taiga_hills_mutated": {
+      "event_name": "music.game.mountains",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "redwood_taiga_mutated": {
+      "event_name": "music.game.overworld_general",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "roofed_forest": {
+      "event_name": "music.game.overworld_general",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "roofed_forest_mutated": {
+      "event_name": "music.game.overworld_general",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "snowy_slopes": {
+      "event_name": "music.game.frozen",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "soulsand_valley": {
+      "event_name": "music.game.basalt",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "stony_peaks": {
+      "event_name": "music.game.mountains",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "swampland": {
+      "event_name": "music.game.swamp",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "swampland_mutated": {
+      "event_name": "music.game.swamp",
+      "max_delay": 120,
+      "min_delay": 60
+   },
+   "water": {
+      "event_name": "music.game.water",
+      "max_delay": 20,
+      "min_delay": 10
+   },
+   "desert" : {
+      "event_name" : "music.overworld.desert",
+      "max_delay" : 180,
+      "min_delay" : 60
+   },
+   "desert_hills" : {
+      "event_name" : "music.overworld.desert",
+      "max_delay" : 180,
+      "min_delay" : 60
+   },
+   "desert_hills_mutated" : {
+      "event_name" : "music.overworld.desert",
+      "max_delay" : 180,
+      "min_delay" : 60
+   },
+   "cherry_grove" : {
+      "event_name" : "music.game.flower",
+      "max_delay" : 180,
+      "min_delay" : 60
+   }
+}

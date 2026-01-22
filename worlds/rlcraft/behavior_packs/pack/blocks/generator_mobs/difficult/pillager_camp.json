@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ecbl_bs:pillager_camp.difficult.mobs"
+		},
+		"components": {
+			"minecraft:tick": {
+				"interval_range": [
+					20,
+					20
+				],
+				"looping": true
+			},
+			"minecraft:custom_components": [
+				"ecbl_bs:pillager_camp.difficult.mobs"
+			],
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:destructible_by_mining": false,
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:geometry": "geometry.ecbl_bc.fake_mimic_hitbox",
+			"minecraft:collision_box": true,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ecbl_bs:totem_of_turtle",
+					"face_dimming": true,
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}

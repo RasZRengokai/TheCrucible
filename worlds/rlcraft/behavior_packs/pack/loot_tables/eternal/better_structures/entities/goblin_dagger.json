@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ecbl_bs:dagger",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

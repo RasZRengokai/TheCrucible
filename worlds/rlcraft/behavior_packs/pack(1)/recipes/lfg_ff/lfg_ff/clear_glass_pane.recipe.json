@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:clear_glass_pane_recipe"},"tags":["lfg_ff:furniture"],"pattern":["WWW","WWW","   "],"key":{"W":{"item":"lfg_ff:clear_glass"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:clear_glass_pane","count":16}]}}

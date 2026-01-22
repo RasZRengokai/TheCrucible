@@ -1,0 +1,42 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "jerrys_colonies:marauder_outpost_feature"
+    },
+    "structure_name": "mystructure:marauderoutpost",
+    "adjustment_radius": 16,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:stone",
+          "minecraft:water",
+          "minecraft:flowing_water",
+          "minecraft:tall_grass",
+          "minecraft:oak_leaves",
+          "minecraft:birch_leaves",
+          "minecraft:oak_log",
+          "minecraft:birch_log",
+          "minecraft:dandelion",
+          "minecraft:poppy",
+          "minecraft:blue_orchid",
+          "minecraft:allium",
+          "minecraft:azure_bluet",
+          "minecraft:red_tulip",
+          "minecraft:orange_tulip",
+          "minecraft:white_tulip",
+          "minecraft:pink_tulip",
+          "minecraft:oxeye_daisy",
+          "minecraft:cornflower",
+          "minecraft:lily_of_the_valley"
+        ]
+      }
+    }
+  }
+}

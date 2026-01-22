@@ -1,0 +1,53 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.citizen.movement": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"walk_fast"
+					],
+					"transitions": [
+						{
+							"holding_item": "q.is_item_equipped"
+						}
+					]
+				},
+				"holding_item": {
+					"animations": [
+						"walk_fast",
+						"hold_item"
+					],
+					"transitions": [
+						{
+							"default": "!q.is_item_equipped"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.sleeping_entity.sleep": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"sleep": "q.is_sleeping"
+						}
+					]
+				},
+				"sleep": {
+					"animations": [
+						"nap"
+					],
+					"transitions": [
+						{
+							"default": "!q.is_sleeping"
+						}
+					]
+				}
+			}
+		}
+	}
+}

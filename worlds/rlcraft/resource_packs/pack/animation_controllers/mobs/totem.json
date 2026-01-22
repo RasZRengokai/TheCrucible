@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ecbl_bs.turtle_shield.root": {
+      "initial_state": "shield",
+      "states": {
+        "shield": {
+          "animations": [
+            "shield"
+          ],
+          "particle_effects": [
+            {
+              "effect": "turtle_shield",
+              "locator": "turtle"
+            }
+          ],
+          "transitions": [
+            {
+            "transition": "q.all_animations_finished"
+            }
+          ]
+        },
+        "transition": {
+          "animations": [
+            "shield"
+          ],
+          "particle_effects": [
+            {
+              "effect": "turtle_shield",
+              "locator": "turtle"
+            }
+          ],
+          "transitions": [
+            {
+            "shield": "q.all_animations_finished"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.arena_display",
+				"texture_width": 1546,
+				"texture_height": 269,
+				"visible_bounds_width": 24,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-183, 0, 0],
+							"size": [365, 69, 1],
+							"pivot": [-21, 0, 0],
+							"rotation": [12.5, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1546, 269]},
+								"east": {"uv": [604, 126], "uv_size": [1, 68]},
+								"south": {"uv": [1211, 19], "uv_size": [130, 68]},
+								"west": {"uv": [610, 114], "uv_size": [1, 68]},
+								"up": {"uv": [594, 85], "uv_size": [130, 1]},
+								"down": {"uv": [629, 86], "uv_size": [130, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

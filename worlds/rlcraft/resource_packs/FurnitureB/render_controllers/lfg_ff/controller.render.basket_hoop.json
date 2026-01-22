@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.8.0","render_controllers":{"controller.render.lfg_ff.basket_hoop_entity":{"textures":["q.property('lfg_ff:variant') == 1 ? Texture.var1 : Texture.var2"],"geometry":"Geometry.default","materials":[{"*":"Material.default"}]}}}

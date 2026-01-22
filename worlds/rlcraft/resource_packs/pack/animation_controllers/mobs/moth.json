@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ecbl_bs.particle_root": {
+      "initial_state": "start",
+      "states": {
+        "start": {
+          "animations": [
+            "start"
+          ],
+          "transitions": [
+            {
+              "exit": "q.property('ecbl_bs:particle') == 'exit'"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "exit": {
+          "animations": [
+            "exit"
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    }
+  }
+}

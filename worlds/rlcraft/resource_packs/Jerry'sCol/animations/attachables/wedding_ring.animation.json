@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wedding_ring.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.wedding_ring.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [-177.95422, 0.0001, 180.00401],
+					"position": [0, 22.5, -1]
+				}
+			}
+		}
+	}
+}

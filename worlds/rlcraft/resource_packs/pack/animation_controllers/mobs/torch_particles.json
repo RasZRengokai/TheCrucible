@@ -1,0 +1,79 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ecbl_bs.torch_particles.particle_emmiter.third_person": {
+      "initial_state": "particle_animation",
+      "states": {
+        "particle_animation": {
+          "animations": [
+            "particle_emmiter.third"
+          ],
+          "particle_effects": [
+            {
+              "effect": "ashes",
+              "locator": "flame"
+            }
+          ],
+          "transitions": [
+            {
+              "transition": "q.all_animations_finished"
+            }
+          ]
+        },
+        "transition": {
+          "animations": [
+            "particle_emmiter.third"
+          ],
+          "particle_effects": [
+            {
+              "effect": "ashes",
+              "locator": "flame"
+            }
+          ],
+          "transitions": [
+            {
+              "particle_animation": "q.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.ecbl_bs.torch_particles.particle_emmiter.first_person": {
+      "initial_state": "particle_animation",
+      "states": {
+        "particle_animation": {
+          "animations": [
+            "particle_emmiter.first"
+          ],
+          "particle_effects": [
+            {
+              "effect": "ashes",
+              "locator": "flame"
+            }
+          ],
+          "transitions": [
+            {
+              "transition": "q.all_animations_finished"
+            }
+          ]
+        },
+        "transition": {
+          "animations": [
+            "particle_emmiter.first"
+          ],
+          "particle_effects": [
+            {
+              "effect": "ashes",
+              "locator": "flame"
+            }
+          ],
+          "transitions": [
+            {
+              "particle_animation": "q.all_animations_finished"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

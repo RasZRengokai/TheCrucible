@@ -1,0 +1,85 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ecbl_bs.elder_pillager.root": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [
+            {
+              "idle": "!query.is_angry"
+            }
+          ],
+          "transitions": [
+            {
+              "walk": "!query.is_angry && query.ground_speed > 0.1"
+            },
+            {
+              "casting": "!query.is_angry && query.facing_target_to_range_attack"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk": {
+          "animations": [
+            {
+              "walk": "!query.is_angry && query.modified_move_speed*2"
+            }
+          ],
+          "transitions": [
+            {
+              "idle": "!query.is_angry && query.ground_speed < 0.1"
+            },
+            {
+              "casting": "!query.is_angry && query.facing_target_to_range_attack"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "casting": {
+          "animations": [
+            "casting"
+          ],
+          "particle_effects": [
+            {
+              "effect": "staff",
+              "locator": "orb_locator"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "spell_cast",
+              "locator": "orb_locator"
+            }
+          ],
+          "transitions": [
+            {
+              "idle": "!query.is_angry && query.all_animations_finished && query.ground_speed < 0.1"
+            },
+            {
+              "walk": "!query.is_angry && query.all_animations_finished && query.ground_speed > 0.1"
+            },
+            {
+              "casting": "!query.is_angry && query.all_animations_finished && query.facing_target_to_range_attack"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "casting_spell_2": {
+          "animations": [
+            "casting"
+          ],
+          "transitions": [
+            {
+              "idle": "!query.is_angry && query.all_animations_finished && query.ground_speed < 0.1"
+            },
+            {
+              "walk": "!query.is_angry && query.all_animations_finished && query.ground_speed > 0.1"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    }
+  }
+}

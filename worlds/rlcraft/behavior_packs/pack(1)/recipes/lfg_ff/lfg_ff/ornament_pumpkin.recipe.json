@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:ornament_pumpkins_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   "," P "," I "],"key":{"P":{"item":"minecraft:carved_pumpkin"},"I":{"item":"minecraft:pumpkin"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:ornament_pumpkins","count":4}]}}

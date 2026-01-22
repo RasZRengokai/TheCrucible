@@ -1,0 +1,12 @@
+[
+  {
+    "flipbook_texture": "textures/eternal/better_structures/blocks/brazier_fired",
+    "atlas_tile": "ecbl_bs:brazier_fired",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/eternal/better_structures/blocks/brazier_soul_fired",
+    "atlas_tile": "ecbl_bs:brazier_soul_fired",
+    "ticks_per_frame": 2
+  }
+]

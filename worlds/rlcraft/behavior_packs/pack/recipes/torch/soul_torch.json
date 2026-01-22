@@ -1,0 +1,28 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ecbl_bs:metal_soul_torch.recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_nugget"
+      },
+      "B": {
+        "item": "minecraft:soul_torch"
+      }
+    },
+    "result": {
+      "item": "ecbl_bs:metal_soul_torch",
+      "count": 1
+    }
+  }
+}

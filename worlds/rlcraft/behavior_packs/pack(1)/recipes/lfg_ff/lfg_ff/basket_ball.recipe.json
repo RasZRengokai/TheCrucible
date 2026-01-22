@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:basket_ball_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   ","   ","H  "],"key":{"H":{"item":"orange_wool"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:basket_ball_item","count":1}]}}

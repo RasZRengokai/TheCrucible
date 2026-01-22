@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.21.10","minecraft:item":{"description":{"identifier":"lfg_ff:variant_selector_small","menu_category":{"category":"equipment"}},"components":{"minecraft:hover_text_color":"yellow","minecraft:max_stack_size":1,"minecraft:display_name":{"value":"Targeted Variant Selector"},"minecraft:icon":"lfg_ff_variant_selector_small"}}}

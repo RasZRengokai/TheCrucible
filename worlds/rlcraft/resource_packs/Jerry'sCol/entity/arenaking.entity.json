@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jerrys_colonies:arenaking",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/king"
+			},
+			"geometry": {
+				"default": "geometry.humanoid.custom"
+			},
+			"animations": {
+				"idle": "animation.humanoid.citizen.idle",
+				"walk_fast": "animation.citizen.idle_bob",
+				"hold_item": "animation.humanoid.hold_item",
+				"nap": "animation.citizen.nap",
+				"wave": "animation.humanoid.citizen.wave",
+				"fistshake": "animation.humanoid.citizen.fistshake",
+				"dance": "animation.humanoid.citizen.dance",
+				"shakehead": "animation.humanoid.citizen.shakehead",
+				"arena": "animation.humanoid.citizen.arena",
+				"movement": "controller.animation.citizen.movement",
+				"sleep": "controller.animation.sleeping_entity.sleep"
+			},
+			"scripts": {
+				"pre_animation": [ "variable.wave_timer = query.mark_variant;" ],
+				"animate": [
+					"movement",
+					"sleep",
+					{ "idle": "variable.wave_timer == 0" },
+					{ "wave": "variable.wave_timer == 1" },
+					{ "fistshake": "variable.wave_timer == 2" },
+					{ "dance": "variable.wave_timer == 3" },
+					{ "shakehead": "variable.wave_timer == 4" },
+					{ "arena": "variable.wave_timer == 5" }
+				]
+			},
+			"render_controllers": [ "controller.render.arenaking" ]
+		}
+	}
+}
+

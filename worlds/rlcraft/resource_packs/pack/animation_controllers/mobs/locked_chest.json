@@ -1,0 +1,57 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ecbl_bs.locked_chest.root": {
+      "initial_state": "close",
+      "states": {
+        "close": {
+          "animations": [
+            "close"
+          ],
+          "transitions": [
+            {
+              "opening": "query.is_angry"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "opening":{
+          "animations": [
+            "opening"
+          ],
+          "transitions": [
+            {
+              "open": "query.all_animations_finished"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "open":{
+          "animations": [
+            {
+            "open": "query.is_angry"
+            }
+          ],
+          "transitions": [
+            {
+              "closing": "!query.is_angry"
+            }
+          ]
+        },
+        "closing":{
+          "animations": [
+            {
+            "closing": "!query.is_angry"
+            }
+          ],
+          "transitions": [
+            {
+              "close": "query.all_animations_finished"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    }
+  }
+}

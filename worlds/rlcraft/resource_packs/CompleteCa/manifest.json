@@ -1,0 +1,40 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "§4§lCreated by §dIced Fox Studios §r§e– Enjoy the Ultimate Chop!",
+		"name": "§2§lComplete §aCapitators §dResource §9Pack",
+		"uuid": "828642b2-45ce-4195-90c2-041fccd22e0c",
+		"version": [
+			1,
+			0,
+			3
+		],
+		"min_engine_version": [
+			1,
+			20,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "§3§lResources by §dIced Fox Studios §r§5Tree Edition",
+			"type": "resources",
+			"uuid": "5ac7c1a1-313d-4823-a944-20078904fbcb",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.7.50"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	}
+}

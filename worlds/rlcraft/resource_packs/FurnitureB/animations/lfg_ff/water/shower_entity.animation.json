@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.8.0","animations":{"animation.lfg_ff.shower_entity.idle":{"animation_length":9,"particle_effects":{"0.0":[{"effect":"lfg_ff_water","locator":"water"},{"effect":"lfg_ff_smoke","locator":"smoke"}]}},"animation.lfg_ff.shower_entity.sound":{"animation_length":0.85,"loop":true,"sound_effects":{"0.0":[{"effect":"lfg_ff_shower_loop"}]}}}}

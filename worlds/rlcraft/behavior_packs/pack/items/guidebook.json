@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ecbl_bc:guidebook",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"textures": {
+					"default": "ecbl_bs:bs_guidebook"
+				}
+			}
+		}
+	}
+}

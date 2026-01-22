@@ -1,0 +1,29 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jerrys_colonies:large_boat_animation",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/large_boat"
+			},
+			"geometry": {
+				"default": "geometry.large_boat"
+			},
+			"render_controllers": [
+				"controller.render.large_boat_animation"
+			],
+			"animations": {
+				"death": "animation.large_boat.death",
+				"controller": "controller.animation.large_boat_animation"
+			},
+			"scripts": {
+				"animate": [
+					"death"
+				]
+			}
+		}
+	}
+}

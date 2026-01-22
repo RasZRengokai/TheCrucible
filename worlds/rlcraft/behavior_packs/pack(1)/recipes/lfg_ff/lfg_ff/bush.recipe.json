@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:bush_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   "," S "," M "],"key":{"S":{"item":"leaves"},"M":{"item":"minecraft:moss_block"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:bush","count":6}]}}

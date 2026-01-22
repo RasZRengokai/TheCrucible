@@ -1,0 +1,75 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "ecbl_bs:pirate_spawn_egg": {
+      "textures": "textures/eternal/better_structures/items/pirate_spawn_egg"
+    },
+    "ecbl_bs:skeleton": {
+      "textures": "textures/eternal/better_structures/items/skeleton"
+    },
+    "ecbl_bs:mimic_spawn_egg": {
+      "textures": "textures/eternal/better_structures/items/mimic_spawn_egg"
+    },
+    "ecbl_bs:crystal_heart": {
+      "textures": "textures/eternal/better_structures/items/crystal_heart"
+    },
+    "ecbl_bs:gravestone": {
+      "textures": "textures/eternal/better_structures/items/gravestone"
+    },
+    "ecbl_bs:chest_key": {
+      "textures": "textures/eternal/better_structures/items/chest_key"
+    },
+    "ecbl_bs:lava_spirit_spawn_egg": {
+      "textures": "textures/eternal/better_structures/items/lava_spirit_spawn_egg"
+    },
+    "ecbl_bs:mace_pillager_spawn_egg": {
+      "textures": "textures/eternal/better_structures/items/mace_pillager_spawn_egg"
+    },
+    "ecbl_bs:mace_pillager_item": {
+      "textures": "textures/eternal/better_structures/items/mace_pillager_item"
+    },
+    "ecbl_bs:mummy_spawn_egg": {
+      "textures": "textures/eternal/better_structures/items/mummy_spawn_egg"
+    },
+    "ecbl_bs:elder_pillager_spawn_egg": {
+      "textures": "textures/eternal/better_structures/items/elder_pillager_spawn_egg"
+    },
+    "ecbl_bs:goblin_spawn_egg": {
+      "textures": "textures/eternal/better_structures/items/goblin_spawn_egg"
+    },
+    "ecbl_bs:locked_chest": {
+      "textures": "textures/eternal/better_structures/items/locked_chest"
+    },
+    "ecbl_bs:dagger": {
+      "textures": "textures/eternal/better_structures/items/dagger"
+    },
+    "ecbl_bs:imp_spawn_egg": {
+      "textures": "textures/eternal/better_structures/items/imp_spawn_egg"
+    },
+    "ecbl_bs:totem_of_negation": {
+      "textures": "textures/eternal/better_structures/items/totem_of_negation"
+    },
+    "ecbl_bs:totem_of_thunderstorm": {
+      "textures": "textures/eternal/better_structures/items/totem_of_thunderstorm"
+    },
+    "ecbl_bs:totem_of_turtle": {
+      "textures": "textures/eternal/better_structures/items/totem_of_turtle"
+    },
+    "ecbl_bs:transparence": {
+      "textures": "textures/eternal/better_structures/items/transparence"
+    },
+    "ecbl_bs:metal_torch": {
+      "textures": "textures/eternal/better_structures/items/metal_torch"
+    },
+    "ecbl_bs:metal_soul_torch": {
+      "textures": "textures/eternal/better_structures/items/metal_soul_torch"
+    },
+    "ecbl_bs:sitting_skeleton": {
+      "textures": "textures/eternal/better_structures/items/sitting_skeleton"
+    },
+    "ecbl_bs:bs_guidebook": {
+      "textures": "textures/eternal/better_structures/items/bs_guidebook"
+    }
+  },
+  "texture_name": "atlas.items"
+}

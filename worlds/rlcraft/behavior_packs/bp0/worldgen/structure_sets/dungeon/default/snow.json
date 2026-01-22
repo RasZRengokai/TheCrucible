@@ -1,0 +1,1 @@
+{"format_version":"1.21.120","minecraft:structure_set":{"description":{"identifier":"hfrlc:snow_dungeon"},"placement":{"type":"minecraft:random_spread","salt":77922081,"separation":64,"spacing":129},"structures":[{"structure":"hfrlc:snow_dungeon","weight":1}]}}

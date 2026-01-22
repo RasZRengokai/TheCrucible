@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "jerrys_colonies:colony_flag"
+		},
+		"components": {
+			"minecraft:icon": "colony_flag",
+			"minecraft:max_stack_size": 16,
+			"minecraft:cooldown": {
+				"category": "colony_flag",
+				"duration": 2
+			},
+			"minecraft:durability": {
+				"max_durability": 100,
+				"damage_chance": {
+					"min": 5,
+					"max": 10
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:wool"
+						],
+						"repair_amount": "query.max_durability*0.25"
+					}
+				]
+			}
+		}
+	}
+}

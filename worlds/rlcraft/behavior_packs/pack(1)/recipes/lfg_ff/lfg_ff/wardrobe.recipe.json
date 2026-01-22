@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:wardrobe_block_recipe"},"tags":["lfg_ff:furniture"],"pattern":["PHP","PCP","PHP"],"key":{"H":{"tag":"minecraft:door"},"C":{"item":"chest"},"P":{"tag":"minecraft:planks"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:wardrobe_block","count":6}]}}

@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "torch_soul_flames",
+        "metalness_emissive_roughness_subsurface": "torch_soul_flames_mer"
+    }
+}

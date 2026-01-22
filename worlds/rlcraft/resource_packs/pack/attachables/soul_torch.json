@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "ecbl_bs:metal_soul_torch_item",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "frame_0": "textures/eternal/better_structures/models/soul_torch/torch_1",
+        "frame_1": "textures/eternal/better_structures/models/soul_torch/torch_2",
+        "frame_2": "textures/eternal/better_structures/models/soul_torch/torch_3",
+        "frame_3": "textures/eternal/better_structures/models/soul_torch/torch_4",
+        "frame_4": "textures/eternal/better_structures/models/soul_torch/torch_5"
+      },
+      "geometry": {
+        "default": "geometry.ecbl_bs.metal_torch_item"
+      },
+      "animations": {
+        "hold_first_person": "animation.ecbl_bs.item.hold_first_person.metal_torch",
+        "hold_third_person": "animation.ecbl_bs.item.hold_third_person.metal_torch"
+      },
+      "enable_attachables": true,
+      "scripts": {
+        "animate": [
+          {
+            "hold_first_person": "context.is_first_person == 1.0"
+          },
+          {
+            "hold_third_person": "context.is_first_person == 0.0"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.metal_torch"
+      ]
+    }
+  }
+}

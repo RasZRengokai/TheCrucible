@@ -1,0 +1,59 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.trophy_love_and_war",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [-8, 0.0981, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 32], "uv_size": [16, 2]},
+								"east": {"uv": [32, 28], "uv_size": [16, 2]},
+								"south": {"uv": [32, 30], "uv_size": [16, 2]},
+								"west": {"uv": [32, 32], "uv_size": [16, 2]},
+								"up": {"uv": [0, 0], "uv_size": [16, 16]},
+								"down": {"uv": [0, 32], "uv_size": [16, -16]}
+							}
+						},
+						{
+							"origin": [-6, 3, -1],
+							"size": [12, 20, 2],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [12, 20]},
+								"east": {"uv": [28, 28], "uv_size": [2, 20]},
+								"south": {"uv": [16, 0], "uv_size": [12, 20]},
+								"west": {"uv": [30, 28], "uv_size": [2, 20]},
+								"up": {"uv": [0, 34], "uv_size": [12, 2]},
+								"down": {"uv": [32, 36], "uv_size": [12, -2]}
+							}
+						},
+						{
+							"origin": [-7, 2, -7],
+							"size": [14, 1, 14],
+							"uv": {
+								"north": {"uv": [0, 36], "uv_size": [14, 1]},
+								"east": {"uv": [32, 36], "uv_size": [14, 1]},
+								"south": {"uv": [0, 37], "uv_size": [14, 1]},
+								"west": {"uv": [32, 37], "uv_size": [14, 1]},
+								"up": {"uv": [28, 0], "uv_size": [14, 14]},
+								"down": {"uv": [28, 28], "uv_size": [14, -14]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

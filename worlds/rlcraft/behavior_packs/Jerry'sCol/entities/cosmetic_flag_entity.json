@@ -1,0 +1,1338 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "jerrys_colonies:cosmetic_flag_entity",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"white_flag": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"red_flag": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"blue_flag": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"green_flag": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"yellow_flag": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			},
+			"orange_flag": {
+				"minecraft:variant": {
+					"value": 5
+				}
+			},
+			"purple_flag": {
+				"minecraft:variant": {
+					"value": 6
+				}
+			},
+			"pink_flag": {
+				"minecraft:variant": {
+					"value": 7
+				}
+			},
+			"black_flag": {
+				"minecraft:variant": {
+					"value": 8
+				}
+			},
+			"gray_flag": {
+				"minecraft:variant": {
+					"value": 9
+				}
+			},
+			"light_gray_flag": {
+				"minecraft:variant": {
+					"value": 10
+				}
+			},
+			"brown_flag": {
+				"minecraft:variant": {
+					"value": 11
+				}
+			},
+			"cyan_flag": {
+				"minecraft:variant": {
+					"value": 12
+				}
+			},
+			"light_blue_flag": {
+				"minecraft:variant": {
+					"value": 13
+				}
+			},
+			"lime_flag": {
+				"minecraft:variant": {
+					"value": 14
+				}
+			},
+			"magenta_flag": {
+				"minecraft:variant": {
+					"value": 15
+				}
+			},
+			"bangladesh_flag": {
+				"minecraft:variant": {
+					"value": 16
+				}
+			},
+			"brazil_flag": {
+				"minecraft:variant": {
+					"value": 17
+				}
+			},
+			"china_flag": {
+				"minecraft:variant": {
+					"value": 18
+				}
+			},
+			"colombia_flag": {
+				"minecraft:variant": {
+					"value": 19
+				}
+			},
+			"dr_congo_flag": {
+				"minecraft:variant": {
+					"value": 20
+				}
+			},
+			"egypt_flag": {
+				"minecraft:variant": {
+					"value": 21
+				}
+			},
+			"ethiopia_flag": {
+				"minecraft:variant": {
+					"value": 22
+				}
+			},
+			"france_flag": {
+				"minecraft:variant": {
+					"value": 23
+				}
+			},
+			"germany_flag": {
+				"minecraft:variant": {
+					"value": 24
+				}
+			},
+			"india_flag": {
+				"minecraft:variant": {
+					"value": 25
+				}
+			},
+			"indonesia_flag": {
+				"minecraft:variant": {
+					"value": 26
+				}
+			},
+			"iran_flag": {
+				"minecraft:variant": {
+					"value": 27
+				}
+			},
+			"italy_flag": {
+				"minecraft:variant": {
+					"value": 28
+				}
+			},
+			"japan_flag": {
+				"minecraft:variant": {
+					"value": 29
+				}
+			},
+			"kenya_flag": {
+				"minecraft:variant": {
+					"value": 30
+				}
+			},
+			"mexico_flag": {
+				"minecraft:variant": {
+					"value": 31
+				}
+			},
+			"myanmar_flag": {
+				"minecraft:variant": {
+					"value": 32
+				}
+			},
+			"nigeria_flag": {
+				"minecraft:variant": {
+					"value": 33
+				}
+			},
+			"pakistan_flag": {
+				"minecraft:variant": {
+					"value": 34
+				}
+			},
+			"philippines_flag": {
+				"minecraft:variant": {
+					"value": 35
+				}
+			},
+			"russia_flag": {
+				"minecraft:variant": {
+					"value": 36
+				}
+			},
+			"south_africa_flag": {
+				"minecraft:variant": {
+					"value": 37
+				}
+			},
+			"south_korea_flag": {
+				"minecraft:variant": {
+					"value": 38
+				}
+			},
+			"spain_flag": {
+				"minecraft:variant": {
+					"value": 39
+				}
+			},
+			"tanzania_flag": {
+				"minecraft:variant": {
+					"value": 40
+				}
+			},
+			"thailand_flag": {
+				"minecraft:variant": {
+					"value": 41
+				}
+			},
+			"turkey_flag": {
+				"minecraft:variant": {
+					"value": 42
+				}
+			},
+			"united_kingdom_flag": {
+				"minecraft:variant": {
+					"value": 43
+				}
+			},
+			"united_states_flag": {
+				"minecraft:variant": {
+					"value": 44
+				}
+			},
+			"vietnam_flag": {
+				"minecraft:variant": {
+					"value": 45
+				}
+			},
+			"poland_flag": {
+				"minecraft:variant": {
+					"value": 46
+				}
+			},
+			"canada_flag": {
+				"minecraft:variant": {
+					"value": 47
+				}
+			},
+			"new_zealand_flag": {
+				"minecraft:variant": {
+					"value": 48
+				}
+			},
+			"greece_flag": {
+				"minecraft:variant": {
+					"value": 49
+				}
+			},
+			"sweden_flag": {
+				"minecraft:variant": {
+					"value": 50
+				}
+			},
+			"australia_flag": {
+				"minecraft:variant": {
+					"value": 51
+				}
+			},
+			"together_flag": {
+				"minecraft:variant": {
+					"value": 52
+				}
+			},
+			"hope_flag": {
+				"minecraft:variant": {
+					"value": 53
+				}
+			},
+			"intelligent_flag": {
+				"minecraft:variant": {
+					"value": 54
+				}
+			},
+			"free_flag": {
+				"minecraft:variant": {
+					"value": 55
+				}
+			},
+			"friendly_flag": {
+				"minecraft:variant": {
+					"value": 56
+				}
+			},
+			"funity_flag": {
+				"minecraft:variant": {
+					"value": 57
+				}
+			},
+			"power_flag": {
+				"minecraft:variant": {
+					"value": 58
+				}
+			},
+			"strength_flag": {
+				"minecraft:variant": {
+					"value": 59
+				}
+			},
+			"legion_flag": {
+				"minecraft:variant": {
+					"value": 60
+				}
+			},
+			"minute_flag": {
+				"minecraft:variant": {
+					"value": 61
+				}
+			},
+			"order_flag": {
+				"minecraft:variant": {
+					"value": 62
+				}
+			},
+			"control_flag": {
+				"minecraft:variant": {
+					"value": 63
+				}
+			},
+			"bandit_flag": {
+				"minecraft:variant": {
+					"value": 64
+				}
+			},
+			"marauder_flag": {
+				"minecraft:variant": {
+					"value": 65
+				}
+			},
+			"flower_flag": {
+				"minecraft:variant": {
+					"value": 66
+				}
+			},
+			"symbol_flag": {
+				"minecraft:variant": {
+					"value": 67
+				}
+			},
+			"dark_flag": {
+				"minecraft:variant": {
+					"value": 68
+				}
+			},
+			"nature_flag": {
+				"minecraft:variant": {
+					"value": 69
+				}
+			},
+			"solar_flag": {
+				"minecraft:variant": {
+					"value": 70
+				}
+			},
+			"holy_flag": {
+				"minecraft:variant": {
+					"value": 71
+				}
+			},
+			"sea_flag": {
+				"minecraft:variant": {
+					"value": 72
+				}
+			},
+			"royal_flag": {
+				"minecraft:variant": {
+					"value": 73
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"cosmetic_flag"
+				]
+			},
+			"minecraft:variant": {
+				"value": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0.2,
+				"height": 1
+			},
+			"minecraft:health": {
+				"value": 10000,
+				"max": 10000,
+				"min": 10000
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:persistent": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": "no"
+					}
+				]
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"event": "cosmetic_flag_pickup"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"white_flag"
+					]
+				}
+			},
+			"cosmetic_flag_pickup": {},
+			"set_white": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"white_flag"
+					]
+				}
+			},
+			"set_red": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"red_flag"
+					]
+				}
+			},
+			"set_blue": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"blue_flag"
+					]
+				}
+			},
+			"set_green": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"green_flag"
+					]
+				}
+			},
+			"set_yellow": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"yellow_flag"
+					]
+				}
+			},
+			"set_orange": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"orange_flag"
+					]
+				}
+			},
+			"set_purple": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"purple_flag"
+					]
+				}
+			},
+			"set_pink": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"pink_flag"
+					]
+				}
+			},
+			"set_black": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"black_flag"
+					]
+				}
+			},
+			"set_gray": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"gray_flag"
+					]
+				}
+			},
+			"set_light_gray": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"light_gray_flag"
+					]
+				}
+			},
+			"set_brown": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"brown_flag"
+					]
+				}
+			},
+			"set_cyan": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"cyan_flag"
+					]
+				}
+			},
+			"set_light_blue": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"light_blue_flag"
+					]
+				}
+			},
+			"set_lime": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"lime_flag"
+					]
+				}
+			},
+			"set_magenta": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"magenta_flag"
+					]
+				}
+			},
+			"set_bangladesh": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"bangladesh_flag"
+					]
+				}
+			},
+			"set_brazil": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"brazil_flag"
+					]
+				}
+			},
+			"set_china": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"china_flag"
+					]
+				}
+			},
+			"set_colombia": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"colombia_flag"
+					]
+				}
+			},
+			"set_dr_congo": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"dr_congo_flag"
+					]
+				}
+			},
+			"set_egypt": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"egypt_flag"
+					]
+				}
+			},
+			"set_ethiopia": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"ethiopia_flag"
+					]
+				}
+			},
+			"set_france": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"france_flag"
+					]
+				}
+			},
+			"set_germany": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"germany_flag"
+					]
+				}
+			},
+			"set_india": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"india_flag"
+					]
+				}
+			},
+			"set_indonesia": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"indonesia_flag"
+					]
+				}
+			},
+			"set_iran": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"iran_flag"
+					]
+				}
+			},
+			"set_italy": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"italy_flag"
+					]
+				}
+			},
+			"set_japan": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"japan_flag"
+					]
+				}
+			},
+			"set_kenya": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"kenya_flag"
+					]
+				}
+			},
+			"set_mexico": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"mexico_flag"
+					]
+				}
+			},
+			"set_myanmar": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"myanmar_flag"
+					]
+				}
+			},
+			"set_nigeria": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"nigeria_flag"
+					]
+				}
+			},
+			"set_pakistan": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"pakistan_flag"
+					]
+				}
+			},
+			"set_philippines": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"philippines_flag"
+					]
+				}
+			},
+			"set_russia": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"russia_flag"
+					]
+				}
+			},
+			"set_south_africa": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"south_africa_flag"
+					]
+				}
+			},
+			"set_south_korea": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"south_korea_flag"
+					]
+				}
+			},
+			"set_spain": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"spain_flag"
+					]
+				}
+			},
+			"set_tanzania": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"tanzania_flag"
+					]
+				}
+			},
+			"set_thailand": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"thailand_flag"
+					]
+				}
+			},
+			"set_turkey": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"turkey_flag"
+					]
+				}
+			},
+			"set_united_kingdom": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"united_kingdom_flag"
+					]
+				}
+			},
+			"set_united_states": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"united_states_flag"
+					]
+				}
+			},
+			"set_vietnam": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"vietnam_flag"
+					]
+				}
+			},
+			"set_poland": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"poland_flag"
+					]
+				}
+			},
+			"set_canada": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"canada_flag"
+					]
+				}
+			},
+			"set_new_zealand": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"new_zealand_flag"
+					]
+				}
+			},
+			"set_greece": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"greece_flag"
+					]
+				}
+			},
+			"set_sweden": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"sweden_flag"
+					]
+				}
+			},
+			"set_australia": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"australia_flag"
+					]
+				}
+			},
+			"set_together": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"together_flag"
+					]
+				}
+			},
+			"set_hope": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"hope_flag"
+					]
+				}
+			},
+			"set_intelligent": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"intelligent_flag"
+					]
+				}
+			},
+			"set_free": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"free_flag"
+					]
+				}
+			},
+			"set_friendly": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"friendly_flag"
+					]
+				}
+			},
+			"set_funity": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"funity_flag"
+					]
+				}
+			},
+			"set_power": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"power_flag"
+					]
+				}
+			},
+			"set_strength": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"strength_flag"
+					]
+				}
+			},
+			"set_legion": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"legion_flag"
+					]
+				}
+			},
+			"set_minute": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minute_flag"
+					]
+				}
+			},
+			"set_order": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"order_flag"
+					]
+				}
+			},
+			"set_control": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"control_flag"
+					]
+				}
+			},
+			"set_bandit": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"bandit_flag"
+					]
+				}
+			},
+			"set_marauder": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag", "flower_flag", "symbol_flag", "dark_flag", "nature_flag", "solar_flag", "holy_flag", "sea_flag", "royal_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"marauder_flag"
+					]
+				}
+			},
+			"set_flower": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag", "flower_flag", "symbol_flag", "dark_flag", "nature_flag", "solar_flag", "holy_flag", "sea_flag", "royal_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"flower_flag"
+					]
+				}
+			},
+			"set_symbol": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag", "flower_flag", "symbol_flag", "dark_flag", "nature_flag", "solar_flag", "holy_flag", "sea_flag", "royal_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"symbol_flag"
+					]
+				}
+			},
+			"set_dark": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag", "flower_flag", "symbol_flag", "dark_flag", "nature_flag", "solar_flag", "holy_flag", "sea_flag", "royal_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"dark_flag"
+					]
+				}
+			},
+			"set_nature": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag", "flower_flag", "symbol_flag", "dark_flag", "nature_flag", "solar_flag", "holy_flag", "sea_flag", "royal_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"nature_flag"
+					]
+				}
+			},
+			"set_solar": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag", "flower_flag", "symbol_flag", "dark_flag", "nature_flag", "solar_flag", "holy_flag", "sea_flag", "royal_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"solar_flag"
+					]
+				}
+			},
+			"set_holy": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag", "flower_flag", "symbol_flag", "dark_flag", "nature_flag", "solar_flag", "holy_flag", "sea_flag", "royal_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"holy_flag"
+					]
+				}
+			},
+			"set_sea": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag", "flower_flag", "symbol_flag", "dark_flag", "nature_flag", "solar_flag", "holy_flag", "sea_flag", "royal_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"sea_flag"
+					]
+				}
+			},
+			"set_royal": {
+				"remove": {
+					"component_groups": [
+						"white_flag", "red_flag", "blue_flag", "green_flag", "yellow_flag", "orange_flag", "purple_flag", "pink_flag", "black_flag", "gray_flag", "light_gray_flag", "brown_flag", "cyan_flag", "light_blue_flag", "lime_flag", "magenta_flag", "bangladesh_flag", "brazil_flag", "china_flag", "colombia_flag", "dr_congo_flag", "egypt_flag", "ethiopia_flag", "france_flag", "germany_flag", "india_flag", "indonesia_flag", "iran_flag", "italy_flag", "japan_flag", "kenya_flag", "mexico_flag", "myanmar_flag", "nigeria_flag", "pakistan_flag", "philippines_flag", "russia_flag", "south_africa_flag", "south_korea_flag", "spain_flag", "tanzania_flag", "thailand_flag", "turkey_flag", "united_kingdom_flag", "united_states_flag", "vietnam_flag", "poland_flag", "canada_flag", "new_zealand_flag", "greece_flag", "sweden_flag", "australia_flag", "together_flag", "hope_flag", "intelligent_flag", "free_flag", "friendly_flag", "funity_flag", "power_flag", "strength_flag", "legion_flag", "minute_flag", "order_flag", "control_flag", "bandit_flag", "marauder_flag", "flower_flag", "symbol_flag", "dark_flag", "nature_flag", "solar_flag", "holy_flag", "sea_flag", "royal_flag"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"royal_flag"
+					]
+				}
+			}
+		}
+	}
+}

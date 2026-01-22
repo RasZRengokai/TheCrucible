@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:sofa_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   ","FSF","PPP"],"key":{"S":{"tag":"minecraft:wool"},"P":{"tag":"minecraft:planks"},"F":{"tag":"minecraft:wooden_slabs"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:sofa","count":3}]}}

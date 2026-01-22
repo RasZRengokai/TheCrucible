@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.8.0","animations":{"animation.lfg_ff.oven.rotations":{"loop":true,"animation_length":1,"override_previous_animation":true,"bones":{"root":{"rotation":[0,"query.property('lfg_ff:rotation_y') - query.body_y_rotation",0]}}}}}

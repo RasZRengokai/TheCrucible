@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ecbl_bs:goblin",
+      "materials": {
+        "default": "vindicator"
+      },
+      "textures": {
+        "default": "textures/eternal/better_structures/entity/goblin"
+      },
+      "geometry": {
+        "default": "geometry.ecbl_bs.goblin"
+      },
+      "render_controllers": [
+        "controller.render.ecbl_bs.goblin"
+      ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "ecbl_bs:goblin_spawn_egg"
+      },
+      "animations": {
+				"root": "controller.animation.ecbl_bs.goblin.root",
+        "idle": "animation.ecbl_bs.goblin.idle",
+        "walk": "animation.ecbl_bs.goblin.walk",
+        "escape": "animation.ecbl_bs.goblin.fleeing",
+        "attack": "animation.ecbl_bs.goblin.attack",
+        "weapon_swinging": "animation.ecbl_bs.goblin.weapon_swinging"
+      },
+			"scripts": {
+				"animate": [
+					"root"
+				]
+			},
+      "particle_effects": {
+        "angry": "ecbl_bs:angry_goblin"
+      },
+      "sound_effects": {
+        "weapon_swinging": "mob.ecbl_bs.goblin.weapon_swinging"
+      }
+    }
+  }
+}

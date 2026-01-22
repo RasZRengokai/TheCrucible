@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jerrys_colonies:bandit",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"bandit0": "textures/entity/bandit0",
+				"bandit1": "textures/entity/bandit1",
+				"bandit2": "textures/entity/bandit2",
+				"bandit3": "textures/entity/bandit3"
+			},
+			"geometry": {
+				"default": "geometry.humanoid.custom"
+			},
+			"animations": {
+				"walk_fast": "animation.citizen.idle_bob",
+				"hold_item": "animation.humanoid.hold_item",
+				"movement": "controller.animation.citizen.movement"
+			},
+			"scripts": {
+				"animate": [
+					"movement"
+				]
+			},
+			"render_controllers": [
+				"controller.render.bandit"
+			],
+			"sound_effects": {
+				"ambient": "bandit.ambient",
+				"hurt": "bandit.hurt"
+			},
+			"enable_attachables": true
+		}
+	}
+}

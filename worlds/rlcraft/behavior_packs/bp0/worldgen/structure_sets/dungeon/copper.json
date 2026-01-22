@@ -1,0 +1,1 @@
+{"format_version":"1.21.120","minecraft:structure_set":{"description":{"identifier":"hfrlc:copper_dungeon"},"placement":{"type":"minecraft:random_spread","salt":72731186,"separation":32,"spacing":65},"structures":[{"structure":"hfrlc:copper_dungeon","weight":1}]}}

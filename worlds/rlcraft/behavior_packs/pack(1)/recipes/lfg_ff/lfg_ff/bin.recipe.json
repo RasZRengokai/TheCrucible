@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:bin_block_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   ","SSS","HHH"],"key":{"H":{"item":"iron_ingot"},"S":{"tag":"minecraft:wooden_slabs"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:bin_block","count":3}]}}

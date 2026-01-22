@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.8.0","render_controllers":{"controller.render.bath_tub_water_level":{"arrays":{"geometries":{"Array.geo":["Geometry.default","Geometry.big"]}},"textures":["Texture.default"],"geometry":"Array.geo[q.property('lfg_ff:big') ? 1 : 0]","materials":[{"*":"Material.default"}]}}}

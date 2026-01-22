@@ -1,0 +1,52 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.knight.movement": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"walk_fast"
+					],
+					"transitions": [
+						{
+							"holding_item": "q.is_item_equipped('main_hand') && query.variant != 3"
+						},
+						{
+							"cavalry": "query.variant == 3"
+						}
+					]
+				},
+				"holding_item": {
+					"animations": [
+						"walk_fast",
+						"hold_item"
+					],
+					"transitions": [
+						{
+							"default": "!q.is_item_equipped('main_hand')"
+						},
+						{
+							"cavalry": "query.variant == 3"
+						}
+					]
+				},
+				"cavalry": {
+					"animations": [
+						{
+							"cavalry_walk": "query.modified_move_speed"
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.variant != 3 && !q.is_item_equipped('main_hand')"
+						},
+						{
+							"holding_item": "query.variant != 3 && q.is_item_equipped('main_hand')"
+						}
+					]
+				}
+			}
+		}
+	}
+}

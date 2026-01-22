@@ -1,0 +1,36 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "ecbl_bs:dungeon.feature_rule",
+      "places_feature": "ecbl_bs:dungeon.feature"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "overworld"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "overworld_generation"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": {
+        "numerator": 1,
+        "denominator": 300
+      },
+      "x": 0,
+      "y": "query.heightmap(variable.worldx, variable.worldz) - math.random_integer(50, 100)",
+      "z": 0
+    }
+  }
+}

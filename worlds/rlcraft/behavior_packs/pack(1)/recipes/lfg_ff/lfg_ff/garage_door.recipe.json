@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:garage_door_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   ","BBB","TTT"],"key":{"T":{"item":"iron_trapdoor"},"B":{"item":"smooth_stone_slab"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:garage_door","count":6}]}}

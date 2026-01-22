@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:bath_tub_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   ","PIP","PPP"],"key":{"P":{"item":"quartz"},"I":{"item":"minecraft:hopper"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:bath_tub","count":1}]}}

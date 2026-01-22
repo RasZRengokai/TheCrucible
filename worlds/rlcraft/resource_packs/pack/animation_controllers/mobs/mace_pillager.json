@@ -1,0 +1,89 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ecbl_bs.mace_pillager.root": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [
+            "idle"
+          ],
+          "transitions": [
+            {
+              "walk": "!query.is_angry && query.ground_speed > 0.1"
+            },
+            {
+              "attack": "!query.is_angry && query.all_animations_finished && q.is_delayed_attacking"
+            },
+            {
+              "parry": "query.is_angry"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk": {
+          "animations": [
+            {
+              "walk": "!query.is_angry && query.modified_move_speed*3"
+            }
+          ],
+          "transitions": [
+            {
+              "idle": "!query.is_angry && query.ground_speed < 0.1"
+            },
+            {
+              "attack": "!query.is_angry && query.all_animations_finished && q.is_delayed_attacking"
+            },
+            {
+              "parry": "query.is_angry"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "attack": {
+          "animations": [
+            "attack"
+          ],
+          "sound_effects": [
+            {
+              "effect": "attack",
+              "locator": "mace_pillager"
+            }
+          ],
+          "transitions": [
+            {
+              "idle": "!query.is_angry && query.all_animations_finished && query.ground_speed < 0.1"
+            },
+            {
+              "walk": "!query.is_angry && query.all_animations_finished && query.ground_speed > 0.1"
+            },
+            {
+              "attack": "!query.is_angry && query.all_animations_finished && q.is_delayed_attacking"
+            },
+            {
+              "parry": "query.is_angry"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "parry": {
+          "animations": [
+            "parry"
+          ],
+          "transitions": [
+            {
+              "idle": "!query.is_angry && query.all_animations_finished && query.ground_speed < 0.1"
+            },
+            {
+              "walk": "!query.is_angry && query.all_animations_finished && query.ground_speed > 0.1"
+            },
+            {
+              "attack": "!query.is_angry && query.all_animations_finished && q.is_delayed_attacking"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    }
+  }
+}

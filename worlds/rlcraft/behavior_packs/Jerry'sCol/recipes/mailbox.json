@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "jerrys_colonies:mailbox"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" B ",
+			" F ",
+			" S "
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:barrel"
+			},
+			"F": {
+				"item": "minecraft:oak_fence"
+			},
+			"S": {
+				"item": "minecraft:smooth_stone_slab"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:barrel"
+			}
+		],
+		"result": {
+			"item": "jerrys_colonies:mailbox",
+			"count": 1
+		}
+	}
+}

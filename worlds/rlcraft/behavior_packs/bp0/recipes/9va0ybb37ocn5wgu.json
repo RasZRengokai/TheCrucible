@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shapeless":{"description":{"identifier":"hfrlc:stonecutter_dioritebrick_chiseled2"},"tags":["stonecutter"],"priority":0,"ingredients":[{"item":"hfrlc:diorite_brick"}],"unlock":[{"item":"hfrlc:diorite_brick"}],"result":{"item":"hfrlc:chiseled_diorite","count":1}}}

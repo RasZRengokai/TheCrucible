@@ -1,0 +1,27 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ecbl_bs:dagger.recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " B",
+      "A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stick"
+      },
+      "B": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "ecbl_bs:dagger",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"format_version":"1.21.100","minecraft:item":{"description":{"identifier":"hfrlc:dwarven_tome","menu_category":{"category":"items"}},"components":{"minecraft:icon":"hfrlc:dwarven_tome","minecraft:fuel":{"duration":30.0}}}}

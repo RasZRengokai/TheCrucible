@@ -1,0 +1,170 @@
+{
+    "format_version": "1.21.22",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "ecbl_bs:witch_hut.loot",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "despawn":{
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:collision_box": {
+                "width": 1,
+                "height": 1
+            },
+            "minecraft:persistent": {},
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            },
+            "minecraft:physics": {
+                "has_collision": true,
+                "has_gravity": false
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "interact_text": "face player",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "compass"
+                                    }
+                                ]
+                            },
+                            "event": "eternal:face_player"
+                        }
+                    },
+                    {
+                        "interact_text": "tp to you",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "ender_pearl"
+                                    }
+                                ]
+                            },
+                            "event": "eternal:tp_to_player"
+                        }
+                    },
+                    {
+                        "interact_text": "Change texture",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "brush"
+                                    }
+                                ]
+                            },
+                            "event": "eternal:change_texture"
+                        }
+                    },
+                    {
+                        "interact_text": "Cycle Animations",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "stick"
+                                    }
+                                ]
+                            },
+                            "event": "eternal:change_animation"
+                        }
+                    },
+                    {
+                        "interact_text": "kill",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "shears"
+                                    }
+                                ]
+                            },
+                            "event": "ecbl_bs:event_despawn_loot"
+                        }
+                    }
+                ]
+            }
+        },
+        "events": {
+            "eternal:tp_to_player": {
+                "queue_command": {
+                    "command": "tp @s @p"
+                }
+            },
+            "eternal:face_player": {
+                "queue_command": {
+                    "command": "tp @s ~ ~ ~ facing @p"
+                }
+            },
+            "ecbl_bs:event_despawn_loot": {
+                "add": {
+                    "component_groups": [
+                        "despawn"
+                    ]
+                }
+            }
+        }
+    }
+}

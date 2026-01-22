@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.8.0","animations":{"animation.lfg_ff.street_lamp.bloom.idle":{"animation_length":1,"particle_effects":{"0.0":[{"effect":"lfg_ff_street_lamp_bloom","locator":"street_lamp_bloom"},{"effect":"lfg_ff_street_lamp_lucioles","locator":"street_lamp_bloom"}]}}}}

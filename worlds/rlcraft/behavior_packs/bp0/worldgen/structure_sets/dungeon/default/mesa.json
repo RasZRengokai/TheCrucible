@@ -1,0 +1,1 @@
+{"format_version":"1.21.120","minecraft:structure_set":{"description":{"identifier":"hfrlc:mesa_dungeon"},"placement":{"type":"minecraft:random_spread","salt":27991436,"separation":64,"spacing":129},"structures":[{"structure":"hfrlc:mesa_dungeon","weight":1}]}}

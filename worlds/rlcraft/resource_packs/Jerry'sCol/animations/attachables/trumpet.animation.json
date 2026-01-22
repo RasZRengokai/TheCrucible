@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.trumpet.first_person_hold": {
+			"loop": true,
+			"animation_length": 5.5833,
+			"bones": {
+				"root_item": {
+					"rotation": [92.60127, 73.54046, -38.16796],
+					"position": [-5, 28, -5],
+					"scale": 1
+				}
+			}
+		},
+		"animation.trumpet.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [180, 0, 0],
+					"position": [-0.3, 25.5, -0.5]
+				}
+			}
+		}
+	}
+}

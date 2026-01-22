@@ -1,0 +1,31 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jerrys_colonies:large_boat",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/large_boat"
+			},
+			"geometry": {
+				"default": "geometry.large_boat"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"animations": {
+				"bob": "animation.large_boat.bob"
+			},
+			"scripts": {
+				"animate": [
+					"bob"
+				]
+			},
+			"spawn_egg": {
+				"texture": "large_boat_spawn_egg"
+			}
+		}
+	}
+}

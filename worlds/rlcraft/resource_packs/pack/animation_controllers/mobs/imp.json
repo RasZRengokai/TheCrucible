@@ -1,0 +1,217 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ecbl_bs.imp.root": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [
+            "idle"
+          ],
+          "transitions": [
+            {
+              "walk": "query.ground_speed > 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "attack": "query.all_animations_finished && q.is_delayed_attacking && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "take_off": "q.property('ecbl_bs:animation_imp') == 'start_flying'"
+            },
+            {
+              "death": "q.property('ecbl_bs:animation_imp') == 'death'"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk": {
+          "animations": [
+            {
+              "walk": "query.modified_move_speed*2"
+            }
+          ],
+          "transitions": [
+            {
+              "idle": "query.ground_speed < 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "attack": "query.all_animations_finished && q.is_delayed_attacking && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "take_off": "q.property('ecbl_bs:animation_imp') == 'start_flying'"
+            },
+            {
+              "death": "q.property('ecbl_bs:animation_imp') == 'death'"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "attack": {
+          "animations": [
+            "attack"
+          ],
+          "sound_effects": [
+            {
+              "effect": "attack",
+              "locator": "imp"
+            }
+          ],
+          "transitions": [
+            {
+              "idle": "query.all_animations_finished && query.ground_speed < 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "walk": "query.all_animations_finished && query.ground_speed > 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "attack": "query.all_animations_finished && q.is_delayed_attacking && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "take_off": "query.all_animations_finished && q.property('ecbl_bs:animation_imp') == 'start_flying'"
+            },
+            {
+              "death": "q.property('ecbl_bs:animation_imp') == 'death'"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "take_off": {
+          "animations": [
+            "take_off"
+          ],
+          "sound_effects": [
+            {
+              "effect": "take_off",
+              "locator": "imp"
+            }
+          ],
+          "transitions": [
+            {
+              "fly_idle": "query.all_animations_finished && query.ground_speed < 0.1 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "fly_attack": "query.all_animations_finished && v.attack_time > 0 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "flying": "query.all_animations_finished && query.ground_speed > 0.1 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "death": "q.property('ecbl_bs:animation_imp') == 'death'"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "fly_attack": {
+          "animations": [
+            "fly_attack"
+          ],
+          "sound_effects": [
+            {
+              "effect": "attack_fly",
+              "locator": "imp"
+            }
+          ],
+          "transitions": [
+            {
+              "fly_idle": "query.all_animations_finished && query.ground_speed < 0.1 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "flying": "query.all_animations_finished && query.ground_speed > 0.1 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "fly_attack": "query.all_animations_finished && v.attack_time > 0 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "walk": "query.all_animations_finished && query.ground_speed > 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "attack": "query.all_animations_finished && q.is_delayed_attacking && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "idle": "query.all_animations_finished && query.ground_speed < 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "death": "q.property('ecbl_bs:animation_imp') == 'death'"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "fly_idle": {
+          "animations": [
+            "fly_idle"
+          ],
+          "sound_effects": [
+            {
+              "effect": "idle_fly",
+              "locator": "imp"
+            }
+          ],
+          "transitions": [
+            {
+              "flying": "query.ground_speed > 0.1 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "fly_attack": "v.attack_time > 0 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "walk": "query.ground_speed > 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "attack": "query.all_animations_finished && q.is_delayed_attacking && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "idle": "query.ground_speed < 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "death": "q.property('ecbl_bs:animation_imp') == 'death'"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "flying": {
+          "animations": [
+            "flying"
+          ],
+          "sound_effects": [
+            {
+              "effect": "fly",
+              "locator": "imp"
+            }
+          ],
+          "transitions": [
+            {
+              "fly_idle": "query.ground_speed < 0.1 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "fly_attack": "v.attack_time > 0 && q.property('ecbl_bs:animation_imp') == 'flying'"
+            },
+            {
+              "walk": "query.ground_speed > 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "attack": "query.all_animations_finished && q.is_delayed_attacking && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "idle": "query.ground_speed < 0.1 && q.property('ecbl_bs:animation_imp') == 'in_ground'"
+            },
+            {
+              "death": "q.property('ecbl_bs:animation_imp') == 'death'"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "death": {
+          "animations": [
+            "death"
+          ],
+          "sound_effects": [
+            {
+              "effect": "die",
+              "locator": "imp"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

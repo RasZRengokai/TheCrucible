@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ecbl_bs.particle_start": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.0": {
+					"effect": "start"
+				}
+			}
+		},
+		"animation.ecbl_bs.particle_exit": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": {
+					"effect": "exit"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ecbl_bs.metal_torch",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "torch",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 10, 2],
+							"uv": {
+								"north": {"uv": [9, 6], "uv_size": [-2, 10]},
+								"east": {"uv": [7, 6], "uv_size": [2, 10]},
+								"south": {"uv": [9, 6], "uv_size": [-2, 10]},
+								"west": {"uv": [7, 6], "uv_size": [2, 10]},
+								"up": {"uv": [9, 6], "uv_size": [-2, -2]},
+								"down": {"uv": [11, 16], "uv_size": [-2, -2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "torch_base",
+					"parent": "torch",
+					"pivot": [0, 9, 0],
+					"cubes": [
+						{
+							"origin": [-1.5, 5, -1.5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [10, 0], "uv_size": [3, 2]},
+								"east": {"uv": [10, 0], "uv_size": [3, 2]},
+								"south": {"uv": [10, 0], "uv_size": [3, 2]},
+								"west": {"uv": [10, 0], "uv_size": [3, 2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sides",
+					"parent": "torch_base",
+					"pivot": [0, 9, 0],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{
+							"origin": [-3.5, 7, 0],
+							"size": [7, 4, 0],
+							"uv": {
+								"south": {"uv": [4, 0], "uv_size": [6, 4]}
+							}
+						},
+						{
+							"origin": [0, 7, -3.5],
+							"size": [0, 4, 7],
+							"uv": {
+								"east": {"uv": [4, 0], "uv_size": [6, 4]}
+							}
+						}
+					]
+				}
+			],
+			"item_display_transforms": {
+				"thirdperson_righthand": {
+					"rotation": [0, 0, 0],
+					"translation": [-0.5, 7.75, 1.5],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"thirdperson_lefthand": {
+					"rotation": [0, 0, 0],
+					"translation": [-0.25, 7.5, 2.25],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"firstperson_righthand": {
+					"rotation": [0, 0, 0],
+					"translation": [0.25, 6, -1.5],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "ecbl_bs:nether_part1.feature"
+    },
+    "structure_name": "ecbl_bs:nether_part1",
+    "adjustment_radius": 0,
+    "constraints": {}
+  }
+}

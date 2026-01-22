@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ecbl_bs:elder_pillager",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/eternal/better_structures/entity/elder_pillager"
+      },
+      "geometry": {
+        "default": "geometry.ecbl_bs.elder_pillager"
+      },
+      "animations": {
+				"root": "controller.animation.ecbl_bs.elder_pillager.root",
+        "idle": "animation.ecbl_bs.elder_pillager_idle",
+        "walk": "animation.ecbl_bs.elder_pillager_walk",
+        "casting": "animation.ecbl_bs.elder_pillager_spell_casting",
+        "teleport_in": "animation.ecbl_bs.elder_pillager_teleport_in"
+      },
+      "render_controllers": [
+        "controller.render.ecbl_bs.elder_pillager"
+      ],
+      "particle_effects": {
+        "staff": "ecbl_bs:elder_pillager_staff"
+      },
+      "spawn_egg": {
+        "texture": "ecbl_bs:elder_pillager_spawn_egg"
+      },
+			"scripts": {
+				"animate": [
+					"root"
+				]
+			},
+      "sound_effects": {
+        "celebrate": "mob.ecbl_bs.elder_pillager.celebrate",
+        "spell_cast": "mob.ecbl_bs.elder_pillager.spell_cast",
+        "teleport": "mob.ecbl_bs.elder_pillager.teleport"
+      }
+    }
+  }
+}

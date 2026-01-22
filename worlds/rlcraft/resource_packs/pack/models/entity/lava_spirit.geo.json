@@ -1,0 +1,64 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ecbl_bs.survival_expansion.lava_spirit",
+				"texture_width": 64,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"locators": {
+						"lava_spirit": [0, 8, 0]
+					}
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-7, 2, -6], "size": [14, 15, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "leg_r",
+					"parent": "body",
+					"pivot": [-3, 2, 1],
+					"cubes": [
+						{"origin": [-5, 0, -1], "size": [4, 2, 4], "uv": [48, 8]}
+					]
+				},
+				{
+					"name": "leg_l",
+					"parent": "body",
+					"pivot": [3, 2, 1],
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [4, 2, 4], "uv": [48, 8], "mirror": true}
+					]
+				},
+				{
+					"name": "hand_r",
+					"parent": "body",
+					"pivot": [-7, 6, 1],
+					"cubes": [
+						{"origin": [-9, 3, -1], "size": [2, 4, 4], "uv": [42, 0]}
+					]
+				},
+				{
+					"name": "hand_l",
+					"parent": "body",
+					"pivot": [7, 6, 1],
+					"cubes": [
+						{"origin": [7, 3, -1], "size": [2, 4, 4], "uv": [42, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

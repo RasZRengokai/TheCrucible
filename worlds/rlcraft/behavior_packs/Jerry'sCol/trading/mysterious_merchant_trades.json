@@ -1,0 +1,126 @@
+{
+	"tiers": [
+		{
+			"total_exp_required": 0,
+			"groups": [
+				{
+					"num_to_select": 6,
+					"trades": [
+				{
+					"wants": [
+						{
+							"item": "minecraft:iron_ingot",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "jerrys_colonies:guidebook",
+							"quantity": 1
+						}
+					],
+					"max_uses": 10,
+					"trader_exp": 1
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:iron_ingot",
+							"quantity": 2
+						}
+					],
+					"gives": [
+						{
+							"item": "jerrys_colonies:player_id",
+							"quantity": 1
+						}
+					],
+					"max_uses": 5,
+					"trader_exp": 1
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:diamond",
+							"quantity": 10
+						}
+					],
+					"gives": [
+						{
+							"item": "jerrys_colonies:totem_of_peace",
+							"quantity": 1
+						}
+					],
+					"max_uses": 4,
+					"trader_exp": 5
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:gold_ingot",
+							"quantity": 32
+						}
+					],
+					"gives": [
+						{
+							"item": "jerrys_colonies:thearena",
+							"quantity": 1
+						}
+					],
+					"max_uses": 1,
+					"trader_exp": 3
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:diamond",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "jerrys_colonies:wedding_ring",
+							"quantity": 1
+						}
+					],
+					"max_uses": 1,
+					"trader_exp": 2
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:gold_ingot",
+							"quantity": 15
+						}
+					],
+					"gives": [
+						{
+							"item": "jerrys_colonies:trumpet",
+							"quantity": 1
+						}
+					],
+					"max_uses": 3,
+					"trader_exp": 2
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:diamond",
+							"quantity": 5
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:sniffer_egg",
+							"quantity": 1
+						}
+					],
+					"max_uses": 1,
+					"trader_exp": 3
+				}
+			]
+		}
+	]
+}
+]
+}

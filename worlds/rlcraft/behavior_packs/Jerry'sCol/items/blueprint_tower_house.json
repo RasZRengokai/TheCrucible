@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "jerrys_colonies:blueprint_tower_house",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:icon": "blueprint_tower_house",
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "materials": {
+        "version": "1.0.0",
+        "lfg_ff_custom_animated:entity_alphatest": {
+            "+defines": [
+                "USE_UV_ANIM"
+            ]
+        },
+        "lfg_ff_custom_animated_additive:entity_beam_additive": {
+            "+defines": [
+                "USE_UV_ANIM"
+            ]
+        },
+        "lfg_ff_custom_animated_transparent:entity_alphablend": {
+            "+defines": [
+                "USE_UV_ANIM"
+            ]
+        }
+    }
+}

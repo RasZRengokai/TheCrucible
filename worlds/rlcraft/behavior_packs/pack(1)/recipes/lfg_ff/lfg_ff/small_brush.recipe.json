@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:small_brush_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   "," D "," S "],"key":{"S":{"item":"brush"},"D":{"item":"red_dye"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:variant_selector_small","count":1}]}}

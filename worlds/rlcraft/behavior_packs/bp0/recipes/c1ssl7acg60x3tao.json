@@ -1,0 +1,1 @@
+{"format_version":"1.12","minecraft:recipe_shaped":{"description":{"identifier":"hfrlc:backpack_tc"},"tags":["crafting_table"],"pattern":["DDD","DCD","DDD"],"key":{"C":{"item":"minecraft:trapped_chest"},"D":{"item":"minecraft:leather"}},"unlock":[{"item":"minecraft:leather"}],"result":{"item":"hfrlc:backpack"}}}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ecbl_bs:empty.block"
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:destructible_by_mining": false,
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:geometry": "geometry.ecbl_bc.fake_mimic_hitbox",
+			"minecraft:selection_box": false,
+			"minecraft:collision_box": false,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ecbl_bs:transparence",
+					"face_dimming": true,
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

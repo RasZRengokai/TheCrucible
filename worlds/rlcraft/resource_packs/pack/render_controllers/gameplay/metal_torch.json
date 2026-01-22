@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.metal_torch": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "arrays": {
+                "textures": {
+                    "Array.frames": [
+                        "texture.frame_0",
+                        "texture.frame_1",
+                        "texture.frame_2",
+                        "texture.frame_3",
+                        "texture.frame_4"
+                    ]
+                }
+            },
+            "textures": [
+                "temp.life_time = query.life_time * 8.0; return array.frames[temp.life_time];"
+            ]
+        }
+    }
+}

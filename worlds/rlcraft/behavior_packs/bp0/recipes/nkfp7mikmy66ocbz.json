@@ -1,0 +1,1 @@
+{"format_version":"1.12","minecraft:recipe_shaped":{"description":{"identifier":"hfrlc:ice_bag_repair"},"tags":["crafting_table"],"pattern":["PIP","BRB","PIP"],"key":{"P":{"item":"minecraft:packed_ice"},"I":{"item":"hfrlc:ice_essence"},"B":{"item":"hfrlc:blue_bush_fruit"},"R":{"item":"hfrlc:ice_bag_broken"}},"result":{"item":"hfrlc:ice_bag"}}}

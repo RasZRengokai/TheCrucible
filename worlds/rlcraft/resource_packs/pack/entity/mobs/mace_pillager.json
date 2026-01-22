@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ecbl_bs:mace_pillager",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/eternal/better_structures/entity/mace_pillager"
+      },
+      "geometry": {
+        "default": "geometry.ecbl_bs.mace_pillager"
+      },
+      "animations": {
+        "root": "controller.animation.ecbl_bs.mace_pillager.root",
+        "idle": "animation.ecbl_bs.mace_pillager_idle",
+        "walk": "animation.ecbl_bs.mace_pillager_walk",
+        "attack": "animation.ecbl_bs.mace_pillager_attack",
+        "parry": "animation.ecbl_bs.mace_pillager_stunned"
+      },
+      "render_controllers": [
+        "controller.render.ecbl_bs.mace_pillager"
+      ],
+      "spawn_egg": {
+        "texture": "ecbl_bs:mace_pillager_spawn_egg"
+      },
+      "scripts": {
+        "animate": [
+          "root"
+        ]
+      },
+      "sound_effects": {
+        "attack": "mob.ecbl_bs.pillager_mace.attack"
+      }
+    }
+  }
+}

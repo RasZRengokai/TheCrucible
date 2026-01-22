@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "ecbl_bs:desert_pyramid.feature"
+    },
+    "structure_name": "ecbl_bs:desert_pyramid_gen",
+    "adjustment_radius": 0,
+    "constraints": {
+      "grounded": {},
+      "unburied": {}
+    }
+  }
+}

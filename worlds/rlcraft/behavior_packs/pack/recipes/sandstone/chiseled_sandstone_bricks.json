@@ -1,0 +1,19 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ecbl_bs:chiseled_sandstone_bricks"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["AA", "AA"],
+    "key": {
+      "A": {
+        "item": "ecbl_bs:sandstone_bricks"
+      }
+    },
+    "result": {
+      "item": "ecbl_bs:chiseled_sandstone_bricks",
+      "count": 4
+    }
+  }
+}

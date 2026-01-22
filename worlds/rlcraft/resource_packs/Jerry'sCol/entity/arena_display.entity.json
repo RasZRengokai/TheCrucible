@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jerrys_colonies:arena_display",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/arena_display"
+			},
+			"geometry": {
+				"default": "geometry.arena_display"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}

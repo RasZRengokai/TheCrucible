@@ -1,0 +1,137 @@
+{
+	"resource_pack_name": "jerrys_colonies_rp",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"tavern_sign": {
+			"textures": "textures/blocks/tavern_sign"
+		},
+		"red_territory_marker_block": {
+			"textures": "textures/blocks/red_territory_marker_block"
+		},
+		"bounty_board_texture": {
+			"textures": "textures/blocks/bounty_board"
+		},
+		"trophy_christmas": {
+			"textures": "textures/blocks/trophy_christmas"
+		},
+		"trophy_winner_winner_turkey_dinner": {
+			"textures": "textures/blocks/trophy_winner_winner_turkey_dinner"
+		},
+		"trophy_spooky": {
+			"textures": "textures/blocks/trophy_spooky"
+		},
+		"trophy_the_harvest": {
+			"textures": "textures/blocks/trophy_the_harvest"
+		},
+		"trophy_sweet_treat": {
+			"textures": "textures/blocks/trophy_sweet_treat"
+		},
+		"trophy_sparkleburst": {
+			"textures": "textures/blocks/trophy_sparkleburst"
+		},
+		"trophy_heatwave": {
+			"textures": "textures/blocks/trophy_heatwave"
+		},
+		"trophy_cinco_de_mayo": {
+			"textures": "textures/blocks/trophy_cinco_de_mayo"
+		},
+		"springfront": {
+			"textures": "textures/blocks/springfront"
+		},
+		"trophy_thunderstrike": {
+			"textures": "textures/blocks/trophy_thunderstrike"
+		},
+		"trophy_love_and_war": {
+			"textures": "textures/blocks/trophy_love_and_war"
+		},
+		"trophy_winter_offensive": {
+			"textures": "textures/blocks/trophy_winter_offensive"
+		},
+		"microphone": {
+			"textures": "textures/blocks/microphone"
+		},
+		"arena_teleporter": {
+			"textures": "textures/blocks/arena_teleporter"
+		},
+		"grave": {
+			"textures": "textures/blocks/grave"
+		},
+		"ballot_box": {
+			"textures": "textures/blocks/ballot_box"
+		},
+		"mailbox": {
+			"textures": "textures/blocks/mailbox.png"
+		},
+		"taxation_table": {
+			"textures": "textures/blocks/taxation_table.png"
+		},
+		"blueprint_workbench": {
+			"textures": "textures/blocks/blueprint_workbench.png"
+		},
+		"food_crate": {
+			"textures": "textures/blocks/food_crate_empty"
+		},
+		"foodempty": {
+			"textures": "textures/blocks/food_crate_empty"
+		},
+		"foodfull": {
+			"textures": "textures/blocks/food_crate_full"
+		},
+		"colony_flag_white": {
+			"textures": "textures/blocks/wool_colored_white"
+		},
+		"colony_flag_red": {
+			"textures": "textures/blocks/wool_colored_red"
+		},
+		"colony_flag_blue": {
+			"textures": "textures/blocks/wool_colored_blue"
+		},
+		"colony_flag_green": {
+			"textures": "textures/blocks/wool_colored_green"
+		},
+		"colony_flag_yellow": {
+			"textures": "textures/blocks/wool_colored_yellow"
+		},
+		"colony_flag_orange": {
+			"textures": "textures/blocks/wool_colored_orange"
+		},
+		"colony_flag_purple": {
+			"textures": "textures/blocks/wool_colored_purple"
+		},
+		"colony_flag_pink": {
+			"textures": "textures/blocks/wool_colored_pink"
+		},
+		"colony_flag_black": {
+			"textures": "textures/blocks/wool_colored_black"
+		},
+		"colony_flag_gray": {
+			"textures": "textures/blocks/wool_colored_gray"
+		},
+		"colony_flag_light_gray": {
+			"textures": "textures/blocks/wool_colored_silver"
+		},
+		"colony_flag_brown": {
+			"textures": "textures/blocks/wool_colored_brown"
+		},
+		"colony_flag_cyan": {
+			"textures": "textures/blocks/wool_colored_cyan"
+		},
+		"colony_flag_light_blue": {
+			"textures": "textures/blocks/wool_colored_light_blue"
+		},
+		"colony_flag_lime": {
+			"textures": "textures/blocks/wool_colored_lime"
+		},
+		"colony_flag_magenta": {
+			"textures": "textures/blocks/wool_colored_magenta"
+		},
+		"mayor_table": {
+			"textures": "textures/blocks/mayortable.png"
+		},
+		"supply_chest": {
+			"textures": "textures/blocks/supply_chest"
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jerrys_colonies:mysterious_merchant",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/mysteriousMerchant"
+			},
+			"geometry": {
+				"default": "geometry.mysterious_merchant"
+			},
+			"animations": {
+				"walk_fast": "animation.citizen.idle_bob",
+				"hold_item": "animation.humanoid.hold_item",
+				"movement": "controller.animation.citizen.movement"
+			},
+			"scripts": {
+				"animate": [
+					"movement",
+					"hold_item"
+				]
+			},
+			"render_controllers": [
+				"controller.render.mysterious_merchant"
+			],
+			"spawn_egg": {
+				"base_color": "#4B2F1F",
+				"overlay_color": "#9B5F3F"
+			}
+		}
+	}
+}

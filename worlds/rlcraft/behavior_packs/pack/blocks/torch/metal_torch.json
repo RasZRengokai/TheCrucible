@@ -1,0 +1,295 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ecbl_bs:metal_torch",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "ecbl_bs:light": {
+          "values": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('ecbl_bs:light') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "ecbl_bs:metal_torch_base_lit_off",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('ecbl_bs:light') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "ecbl_bs:metal_torch_base_lit",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:light_emission": 13
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:geometry": "geometry.ecbl_bs.metal_torch_wall",
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -1,
+              3.7,
+              1.5
+            ],
+            "size": [
+              2,
+              10,
+              6
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:geometry": "geometry.ecbl_bs.metal_torch_wall",
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -1,
+              3.7,
+              1.5
+            ],
+            "size": [
+              2,
+              10,
+              6
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:geometry": "geometry.ecbl_bs.metal_torch_wall",
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -1,
+              3.7,
+              1.5
+            ],
+            "size": [
+              2,
+              10,
+              6
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:geometry": "geometry.ecbl_bs.metal_torch_wall",
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -1,
+              3.7,
+              1.5
+            ],
+            "size": [
+              2,
+              10,
+              6
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:geometry": "geometry.ecbl_bs.metal_torch",
+          "minecraft:selection_box": {
+            "origin": [
+              -1,
+              0,
+              -1
+            ],
+            "size": [
+              2,
+              10,
+              2
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' && query.block_state('ecbl_bs:light') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.ecbl_bs.metal_torch_wall",
+          "minecraft:custom_components": [
+            "ecbl_bs:metal_torch_particles_south",
+            "ecbl_bs:block_filter_south"
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east' && query.block_state('ecbl_bs:light') == 0",
+        "components": {
+          "minecraft:custom_components": [
+            "ecbl_bs:metal_torch_particles_east",
+            "ecbl_bs:block_filter_east"
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north' && query.block_state('ecbl_bs:light') == 0",
+        "components": {
+          "minecraft:custom_components": [
+            "ecbl_bs:metal_torch_particles_north",
+            "ecbl_bs:block_filter_north"
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west' && query.block_state('ecbl_bs:light') == 0",
+        "components": {
+          "minecraft:custom_components": [
+            "ecbl_bs:metal_torch_particles_west",
+            "ecbl_bs:block_filter_west"
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' && query.block_state('ecbl_bs:light') == 0",
+        "components": {
+          "minecraft:custom_components": [
+            "ecbl_bs:metal_torch_particles_up",
+            "ecbl_bs:block_filter_up"
+          ]
+        }
+      }
+    ],
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "ecbl_bs:metal_torch_base_lit",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box":false,
+      "minecraft:placement_filter": {
+        "conditions":[
+          {
+            "allowed_faces": [
+              "up",
+              "east",
+              "north",
+              "south",
+              "west"
+            ]
+          }
+        ]
+      },
+      "minecraft:geometry": "geometry.ecbl_bs.metal_torch",
+      "minecraft:tick": {
+        "interval_range": [
+          20,
+          20
+        ],
+        "looping": true
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+            },
+            "destroy_speed": 0.5
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+            },
+            "destroy_speed": 0.4
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+            },
+            "destroy_speed": 0.3
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+            },
+            "destroy_speed": 0.2
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+            },
+            "destroy_speed": 0.1
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+            },
+            "destroy_speed": 0.1
+          }
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ecbl_bs:mimic_fake_hitbox"
+    },
+    "components": {
+      "minecraft:tick": {
+        "interval_range": [
+          0,0
+        ],
+        "looping": true
+      },
+      "minecraft:custom_components": [
+        "ecbl_bs:animation_use",
+        "ecbl_bs:mimic_box"
+      ],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:geometry": "geometry.ecbl_bc.fake_mimic_hitbox",
+      "minecraft:collision_box": true,
+      "minecraft:selection_box":{
+        "origin": [
+          -7.5,
+          0,
+          -7.5
+        ],
+        "size": [
+          15,
+          15,
+          15
+        ]
+      },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ecbl_bs:transparence",
+					"face_dimming": true,
+					"render_method": "alpha_test"
+				}
+			}
+    }
+  }
+}

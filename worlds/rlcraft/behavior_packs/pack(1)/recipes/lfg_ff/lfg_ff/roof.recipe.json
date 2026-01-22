@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:roof_recipe"},"tags":["lfg_ff:furniture"],"pattern":["P  ","SP ","SSP"],"key":{"P":{"tag":"minecraft:stone_crafting_materials"},"S":{"tag":"minecraft:planks"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:roof","count":6}]}}

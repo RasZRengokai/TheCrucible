@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:light_switch_recipe"},"tags":["lfg_ff:furniture"],"pattern":[" T ","TGT"," T "],"key":{"G":{"item":"stone_button"},"T":{"item":"minecraft:stick"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:light_switch","count":1}]}}

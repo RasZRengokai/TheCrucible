@@ -1,0 +1,1 @@
+{"format_version":"1.21.100","minecraft:item":{"description":{"identifier":"hfrlc:shulker_anchor","menu_category":{"category":"equipment"}},"components":{"minecraft:icon":"shulker_anchor","minecraft:tags":{"tags":["hfrlc:is_trinket"]},"minecraft:max_stack_size":1}}}

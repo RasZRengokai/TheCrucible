@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "jerrys_colonies:commander_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:iron_sword"
+			},
+			{
+				"item": "jerrys_colonies:colony_flag"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:iron_sword"
+			}
+		],
+		"result": {
+			"item": "jerrys_colonies:commander_sword",
+			"count": 1
+		}
+	}
+}

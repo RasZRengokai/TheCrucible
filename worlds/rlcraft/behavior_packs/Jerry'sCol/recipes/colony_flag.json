@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "jerrys_colonies:colony_flag"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"WWW",
+			"WWW",
+			"S  "
+		],
+		"key": {
+			"W": {
+				"item": "minecraft:wool"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:wool"
+			}
+		],
+		"result": {
+			"item": "jerrys_colonies:colony_flag",
+			"count": 1
+		}
+	}
+}

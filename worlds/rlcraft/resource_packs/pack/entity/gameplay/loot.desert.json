@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ecbl_bs:desert_temple.loot",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/eternal/better_structures/blocks/transparence"
+			},
+			"geometry": {
+				"default": "geometry.ecbl_bs.sitting_skeleton"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

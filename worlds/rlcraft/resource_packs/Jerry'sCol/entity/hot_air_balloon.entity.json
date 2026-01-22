@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jerrys_colonies:hot_air_balloon",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/balloon.png"
+			},
+			"geometry": {
+				"default": "geometry.hot_air_balloon"
+			},
+			"render_controllers": [
+				"controller.render.hot_air_balloon"
+			]
+		}
+	}
+}

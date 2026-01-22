@@ -1,0 +1,1 @@
+{"format_version":"1.21.120","minecraft:structure_set":{"description":{"identifier":"hfrlc:dungeon"},"placement":{"type":"minecraft:random_spread","salt":33669893,"separation":64,"spacing":129},"structures":[{"structure":"hfrlc:dungeon","weight":1}]}}

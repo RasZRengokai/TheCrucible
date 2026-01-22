@@ -1,0 +1,1 @@
+{"format_version":"1.21.100","minecraft:item":{"description":{"identifier":"hfrlc:bandage","menu_category":{"category":"equipment"}},"components":{"minecraft:icon":"bandage","minecraft:use_modifiers":{"use_duration":2.15,"movement_modifier":0.35},"minecraft:cooldown":{"category":"bandage","duration":2.16}}}}

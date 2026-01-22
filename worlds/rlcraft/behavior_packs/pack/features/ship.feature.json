@@ -1,0 +1,11 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "ecbl_bs:ship.feature"
+    },
+    "structure_name": "ecbl_bs:ship_generator",
+    "adjustment_radius": 0,
+    "constraints": {}
+  }
+}

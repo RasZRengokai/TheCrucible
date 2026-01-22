@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.colony_flag.wave": {
+			"initial_state": "waving",
+			"states": {
+				"waving": {
+					"animations": [
+						"animation.colony_flag.wave"
+					],
+					"transitions": [
+						{
+							"waving": "1"
+						}
+					]
+				}
+			}
+		}
+	}
+}

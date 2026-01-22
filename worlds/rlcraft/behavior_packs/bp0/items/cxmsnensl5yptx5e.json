@@ -1,0 +1,1 @@
+{"format_version":"1.21.100","minecraft:item":{"description":{"identifier":"hfrlc:scorpion_tails","menu_category":{"category":"items"}},"components":{"minecraft:icon":"scorpion_tails","minecraft:use_animation":"eat","minecraft:food":{"nutrition":8,"can_always_eat":true},"minecraft:use_modifiers":{"movement_modifier":0.5,"use_duration":1.6}}}}

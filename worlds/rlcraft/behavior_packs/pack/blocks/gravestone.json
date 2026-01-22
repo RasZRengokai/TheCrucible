@@ -1,0 +1,158 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ecbl_bs:gravestone",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.stoneBrick"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": [
+        "ecbl_bs:gravestone_generation"
+      ],
+      "minecraft:tick": {
+        "interval_range": [
+          100,
+          300
+        ],
+        "looping": true
+      },
+      "minecraft:loot": "loot_tables/eternal/better_structures/blocks/gravestone.json",
+      "minecraft:collision_box": {
+        "origin": [
+          -6,
+          0,
+          -2
+        ],
+        "size": [
+          12,
+          16,
+          4
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -6,
+          0,
+          -2
+        ],
+        "size": [
+          12,
+          16,
+          4
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 5,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+            },
+            "destroy_speed": 4.5
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+            },
+            "destroy_speed": 4
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+            },
+            "destroy_speed": 3.5
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+            },
+            "destroy_speed": 3
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+            },
+            "destroy_speed": 2.5
+          },
+          {
+            "item": {
+              "tags": "query.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+            },
+            "destroy_speed": 2
+          }
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "ecbl_bs:gravestone",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": "geometry.ecbl_bs.gravestone"
+    }
+  }
+}

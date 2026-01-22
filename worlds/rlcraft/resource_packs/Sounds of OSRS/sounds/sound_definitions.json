@@ -1,0 +1,498 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"music.menu": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/main_menu",
+					"stream": true,
+					"volume": 0.30
+				}
+			]
+		},
+		"music.game.jungle": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/yesteryear",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/greatness",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/jungly2",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/jungle_trouble",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.overworld_general": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/venture",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/newbie_melody",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/yesteryear",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/parade",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/start",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/lullaby",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.mountains": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/venture",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/yesteryear",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/greatness",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/parade",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/lullaby",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/time_to_mine",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/wander",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.frozen": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/venture",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/greatness",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/parade",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/ice_melody",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.swamp": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/venture",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/mudskipper_melody",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/parade",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.birch": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/venture",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/greatness",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/lightwalk",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/doorways",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/elven_mist",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.flower": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/venture",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/greatness",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/lightwalk",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/lullaby",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/doorways",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/garden",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.caves": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/venture",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/parade",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/start",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/time_to_mine",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/cave_background",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/underground_pass",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.nether_general": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/underground",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/army_of_darkness",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/nether_realm",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/in_the_pits",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.basalt": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/underground",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/army_of_darkness",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/legion",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/in_the_pits",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.nether_forests": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/underground",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/magic_dance",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/in_the_pits",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.desert": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/arabian",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/al_kharid",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/parade",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/venture",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.water": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/sea_shanty",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/high_seas",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/voyage",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/sea_shanty2",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.ender_dragon": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/courage",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.end": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/lonesome",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/inspiration",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/end_song",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		},
+		"music.game.deep_dark": {
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/zombiism",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/cavern",
+					"stream": true,
+					"volume": 0.15
+				},
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/dead_quiet",
+					"stream": true,
+					"volume": 0.15
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ecbl_bs:lying_skeleton_placer",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": "ecbl_bs:skeleton",
+			"minecraft:entity_placer": {
+				"entity": "ecbl_bs:dead_lying_skeleton"
+			},
+			"minecraft:max_stack_size":64
+		}
+	}
+}

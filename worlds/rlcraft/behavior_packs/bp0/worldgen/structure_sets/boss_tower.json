@@ -1,0 +1,1 @@
+{"format_version":"1.21.120","minecraft:structure_set":{"description":{"identifier":"hfrlc:boss_tower"},"placement":{"type":"minecraft:random_spread","salt":55241601,"separation":48,"spacing":97},"structures":[{"structure":"hfrlc:boss_tower","weight":1}]}}

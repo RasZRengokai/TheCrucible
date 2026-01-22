@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:statue_recipe"},"tags":["lfg_ff:furniture"],"pattern":[" G "," S "," B "],"key":{"S":{"item":"minecraft:quartz_pillar"},"G":{"item":"minecraft:chiseled_quartz_block"},"B":{"item":"lfg_ff:pillar"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:statue","count":3}]}}

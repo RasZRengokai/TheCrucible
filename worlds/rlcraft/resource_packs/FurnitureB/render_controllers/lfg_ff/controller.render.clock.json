@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.8.0","render_controllers":{"controller.render.lfg_ff.clock_pendule":{"textures":["q.property('lfg_ff:variant') == 1 ? Texture.var1 : q.property('lfg_ff:variant') == 2 ? Texture.var2 : Texture.var3"],"geometry":"Geometry.default","materials":[{"*":"Material.default"}]}}}

@@ -1,0 +1,83 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "ecbl_bs:ruins.feature_rule",
+      "places_feature": "ecbl_bs:ruins.feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "overworld"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "overworld_generation"
+          }
+        ],
+        "all_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "ocean"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "shore"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "mooshroom"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "frozen"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "river"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "lake"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "desert"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "mesa"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "beach"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": {
+        "numerator": 1,
+        "denominator": 800
+      },
+      "x": 0,
+      "y": "query.heightmap(variable.worldx, variable.worldz) - 16",
+      "z": 0
+    }
+  }
+}

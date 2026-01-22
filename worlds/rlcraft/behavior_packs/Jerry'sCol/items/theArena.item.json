@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "jerrys_colonies:thearena",
+			"menu_category": {
+				"category": "items",
+				"group": "jerrys_colonies:record"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "royal_fanfare",
+			"minecraft:display_name": {
+				"value": "item.record.thearena.name"
+			},
+			"minecraft:rarity": "uncommon",
+			"minecraft:tags": {
+				"tags": ["minecraft:music_disc"]
+			}
+		}
+	}
+}

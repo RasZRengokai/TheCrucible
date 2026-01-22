@@ -1,0 +1,2 @@
+/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
+{"format_version":"1.8.0","render_controllers":{"controller.render.lfg_ff.bin":{"textures":["q.property('lfg_ff:variant') == 1 ? Texture.variant_1 : q.property('lfg_ff:variant') == 2 ? Texture.variant_2 : q.property('lfg_ff:variant') == 3 ? Texture.variant_3 : Texture.variant_4"],"geometry":"q.property('lfg_ff:shape') == 'small' ? Geometry.small : q.property('lfg_ff:shape') == 'double' ? Geometry.double : Geometry.stack","materials":[{"*":"Material.default"}]}}}
