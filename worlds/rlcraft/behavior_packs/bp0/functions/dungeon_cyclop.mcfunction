@@ -1,9 +1,0 @@
-summon hfrlc:cyclop ~~3~
-summon hfrlc:orc ~-1~3~1
-summon hfrlc:orc ~-1~3~-1
-summon hfrlc:orc ~-2~3~0
-summon hfrlc:orc ~-2~3~2
-summon hfrlc:orc ~-2~3~-2
-summon hfrlc:orc ~1~3~-1
-summon hfrlc:orc ~1~3~1
-setblock ~~~ air

@@ -1,1 +1,0 @@
-{"format_version":"1.21.100","minecraft:item":{"description":{"identifier":"hfrlc:cow_skull","menu_category":{"category":"nature"}},"components":{"minecraft:icon":"hfrlc_cow_skull","minecraft:display_name":{"value":"tile.hfrlc:cow_skull.name"},"minecraft:block_placer":{"block":"hfrlc:cow_skull","replace_block_item":true}}}}

@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.8.0","render_controllers":{"controller.render.lfg_ff.structure_placer":{"arrays":{"textures":{"Array.texture":["Texture.fill_0","Texture.fill_1","Texture.fill_2","Texture.fill_3"]}},"textures":["Array.texture[q.property('lfg_ff:fill')]"],"geometry":"Geometry.default","materials":[{"*":"Material.default"}]}}}

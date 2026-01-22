@@ -1,1 +1,0 @@
-{"format_version":"1.21.100","minecraft:item":{"description":{"identifier":"hfrlc:pumpkin","menu_category":{"category":"nature"}},"components":{"minecraft:display_name":{"value":"tile.hfrlc:pumpkin.name"},"minecraft:block_placer":{"block":"hfrlc:pumpkin","replace_block_item":true}}}}

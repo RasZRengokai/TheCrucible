@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:carpet_recipe"},"tags":["lfg_ff:furniture"],"pattern":["   ","SSS","   "],"key":{"S":{"tag":"minecraft:wool"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:carpet","count":6}]}}

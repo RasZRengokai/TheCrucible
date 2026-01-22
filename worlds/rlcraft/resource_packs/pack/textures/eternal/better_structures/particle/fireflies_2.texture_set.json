@@ -1,7 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "fireflies_2",
-        "metalness_emissive_roughness_subsurface": "fireflies_2_mer"
-    }
-}

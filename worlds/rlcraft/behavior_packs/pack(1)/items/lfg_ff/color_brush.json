@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.21.90","minecraft:item":{"description":{"identifier":"lfg_ff:color_brush","menu_category":{"category":"equipment"}},"components":{"minecraft:cooldown":{"category":"lfg_ff_color_brush","duration":0.5},"minecraft:hover_text_color":"yellow","minecraft:max_stack_size":1,"minecraft:display_name":{"value":"Variant Selector"},"minecraft:icon":{"textures":{"default":"lfg_ff_color_brush"}}}}}

@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.80","minecraft:client_entity":{"description":{"identifier":"lfg_ff:basket_ball_entity","materials":{"default":"entity_alphatest"},"textures":{"default":"textures/lfg_ff/lfg_ff/entity/basket_ball/basket_ball"},"geometry":{"default":"geometry.lfg_ff.basket_ball"},"render_controllers":["controller.render.default"],"spawn_egg":{"base_color":"#000000","overlay_color":"#FFFFFF"}}}}

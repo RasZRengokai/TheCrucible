@@ -1,1 +1,0 @@
-execute as @e[type=hfrlc:tornado] run tp @s ^^^-2

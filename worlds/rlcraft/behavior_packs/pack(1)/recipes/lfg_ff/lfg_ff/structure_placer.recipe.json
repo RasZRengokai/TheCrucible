@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:structure_placer_custom_recipe"},"tags":["lfg_ff:furniture"],"pattern":["SWS","FCF","UUU"],"key":{"W":{"tag":"minecraft:planks"},"S":{"tag":"minecraft:wooden_slabs"},"F":{"item":"stonecutter_block"},"C":{"item":"lfg_ff:furniture_table"},"U":{"item":"iron_ingot"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:structure_placer_block","count":1}]}}

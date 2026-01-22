@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:window_frame_recipe"},"tags":["lfg_ff:furniture"],"pattern":["PPP","PSP","PPP"],"key":{"P":{"item":"stick"},"S":{"item":"glass"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:window_frame","count":6}]}}

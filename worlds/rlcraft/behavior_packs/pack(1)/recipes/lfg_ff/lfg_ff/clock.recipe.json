@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:clock_recipe"},"tags":["lfg_ff:furniture"],"pattern":["PPP","PCP","PIP"],"key":{"C":{"item":"clock"},"I":{"item":"glass"},"P":{"tag":"minecraft:planks"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:clock","count":4}]}}

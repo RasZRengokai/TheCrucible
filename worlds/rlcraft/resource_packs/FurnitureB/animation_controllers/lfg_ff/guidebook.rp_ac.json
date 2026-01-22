@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.10.0","animation_controllers":{"controller.animation.lfg_ff.guidebook.root":{"initial_state":"open","states":{"open":{"animations":["open"],"transitions":[{"idle_open":"query.all_animations_finished"}],"blend_transition":0.2},"idle_open":{"animations":["idle_float"],"transitions":[{"close":"query.property('lfg_ff:is_removed') == true"}]},"close":{"animations":["close"]}}}}}

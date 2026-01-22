@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:guidebook_recipe"},"tags":["crafting_table"],"pattern":["   ","PW","   "],"key":{"W":{"item":"lfg_ff:furniture_table"},"P":{"item":"paper"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:guidebook_spawn_egg"}]}}

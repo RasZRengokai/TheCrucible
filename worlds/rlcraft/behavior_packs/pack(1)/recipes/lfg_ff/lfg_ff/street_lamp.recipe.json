@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:street_lamp_recipe"},"tags":["lfg_ff:furniture"],"pattern":[" D "," L "," I "],"key":{"I":{"item":"iron_bars"},"D":{"item":"daylight_detector"},"L":{"item":"lantern"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:street_lamp","count":3}]}}

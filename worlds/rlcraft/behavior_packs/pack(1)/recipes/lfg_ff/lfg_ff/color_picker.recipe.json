@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:color_picker_recipe"},"tags":["lfg_ff:furniture"],"pattern":["  I"," G ","G  "],"key":{"I":{"item":"iron_ingot"},"G":{"item":"glass"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:variant_picker","count":1}]}}

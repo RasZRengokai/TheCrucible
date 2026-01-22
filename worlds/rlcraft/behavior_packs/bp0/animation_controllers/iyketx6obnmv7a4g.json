@@ -1,1 +1,0 @@
-{"format_version":"1.10.0","animation_controllers":{"controller.animation.has_rider":{"initial_state":"default","states":{"default":{"transitions":[{"has_rider":"q.has_rider"}],"on_entry":["@s hfrlc:has_no_rider"]},"has_rider":{"transitions":[{"default":"!q.has_rider"}],"on_entry":["@s hfrlc:has_rider"]}}}}}

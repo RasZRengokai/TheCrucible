@@ -1,7 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "totem_of_undying_st",
-        "metalness_emissive_roughness_subsurface": "totem_of_undying_stand_mer"
-    }
-}

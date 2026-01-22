@@ -1,1 +1,0 @@
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"hfrlc:crafting_table_chiseled_diorite"},"tags":["crafting_table"],"key":{"#":{"item":"hfrlc:diorite_brick_slab"}},"pattern":["#","#"],"unlock":[{"item":"hfrlc:diorite_brick_slab"}],"priority":1,"result":{"item":"hfrlc:chiseled_diorite"}}}

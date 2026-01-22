@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.12.0","minecraft:geometry":[{"description":{"identifier":"geometry.lfg_ff.lustre_fade.floor_top","texture_width":64,"texture_height":64,"visible_bounds_width":3,"visible_bounds_height":2.5,"visible_bounds_offset":[0,0.75,0]},"bones":[{"name":"fade","pivot":[0,-7,0],"locators":{"flame11":[7,9,0],"flame12":[-7,9,0],"flame13":[0,9,7],"flame14":[0,9,-7]}}]}]}

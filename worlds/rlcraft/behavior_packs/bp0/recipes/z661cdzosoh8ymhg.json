@@ -1,1 +1,0 @@
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"hfrlc:dioritebrick_stair"},"tags":["crafting_table"],"pattern":["#  ","## ","###"],"key":{"#":{"item":"hfrlc:diorite_brick"}},"unlock":[{"item":"hfrlc:diorite_brick"}],"result":{"item":"hfrlc:diorite_brick_stair","count":4}}}

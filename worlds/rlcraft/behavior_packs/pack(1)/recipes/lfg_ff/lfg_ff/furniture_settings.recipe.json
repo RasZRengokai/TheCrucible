@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:furniture_settings_recipe"},"tags":["lfg_ff:furniture"],"pattern":[" N ","NIN"," N "],"key":{"I":{"item":"lfg_ff:furniture_wrench"},"N":{"item":"minecraft:iron_nugget"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:settings_item","count":1}]}}

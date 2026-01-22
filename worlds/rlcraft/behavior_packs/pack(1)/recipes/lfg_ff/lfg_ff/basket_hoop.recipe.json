@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:basket_hoop_recipe"},"tags":["lfg_ff:furniture"],"pattern":["PPP","PIP","PWP"],"key":{"P":{"tag":"minecraft:planks"},"W":{"item":"minecraft:web"},"I":{"item":"minecraft:hopper"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:basket_hoop","count":4}]}}

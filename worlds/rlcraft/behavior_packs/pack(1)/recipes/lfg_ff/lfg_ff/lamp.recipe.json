@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"lfg_ff:lamp_recipe"},"tags":["lfg_ff:furniture"],"pattern":[" G "," T "," P "],"key":{"G":{"item":"minecraft:lantern"},"T":{"item":"minecraft:stick"},"P":{"tag":"minecraft:wooden_slabs"}},"unlock":{"context":"AlwaysUnlocked"},"result":[{"item":"lfg_ff:lamp","count":3}]}}

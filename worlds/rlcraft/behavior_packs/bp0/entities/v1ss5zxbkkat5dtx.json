@@ -1,1 +1,0 @@
-{"format_version":"1.13.0","minecraft:entity":{"description":{"identifier":"hfrlc:xp_dropper_high","is_summonable":true,"is_spawnable":false},"components":{"minecraft:health":{"value":1},"minecraft:physics":{},"minecraft:experience_reward":{"on_death":"100"},"minecraft:transient":{},"minecraft:type_family":{"family":["hfrlc:no_healthbar"]}}}}

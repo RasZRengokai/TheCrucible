@@ -1,7 +1,0 @@
-{
-    "format_version": "1.21.30",
-    "minecraft:texture_set": {
-        "color": "metal_torch_base_lit",
-        "metalness_emissive_roughness_subsurface": "metal_torch_base_lit_mer"
-    }
-}

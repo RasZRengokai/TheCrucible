@@ -1,2 +1,0 @@
-/* Created by Lofi Girl. This code is like lo-fi beats: made to chill, not to steal ;) */
-{"format_version":"1.8.0","render_controllers":{"controller.render.lfg_pb.pocket_base_entity":{"geometry":"Geometry.default","textures":["query.property('lfg_pb:chest_deactivated') ? Texture.deactivated : Texture.default"],"materials":[{"*":"Material.default","blend_emissive":"Material.emissive"}]}}}
